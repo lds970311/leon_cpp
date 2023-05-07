@@ -6,6 +6,7 @@
 #define CPP_STUDY_MY_HEADER_H
 
 #include <iostream>
+#include <string.h>
 
 using namespace std;
 
