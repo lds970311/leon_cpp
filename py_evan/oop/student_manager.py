@@ -36,6 +36,11 @@ students_dict = {
 }
 
 
+class LackArgsError(Exception):
+    def __init__(self, msg):
+        self.msg = msg
+
+
 class StudentManager:
     """
     学生管理系统
@@ -50,30 +55,47 @@ class StudentManager:
                 f'学号：{stu_id},姓名：{value["name"]}, 年龄：{value["age"]}, '
                 f'班级： {value["class_number"]}, 性别：{value["sex"]}')
 
-    def check_info(self, **kwargs) -> bool:
+    def check_info(self, **kwargs) -> None:
+        assert len(kwargs) == 4, '参数必须是4个！'
+
         if 'name' not in kwargs:
-            print('没有发现学生姓名')
-            return False
+            raise LackArgsError('没有发现学生姓名')
         if 'age' not in kwargs:
-            print('缺少学生年龄')
-            return False
+            raise LackArgsError('缺少学生年龄')
         if 'sex' not in kwargs:
-            print('缺少学生性别')
-            return False
+            raise LackArgsError('缺少学生性别')
         if 'class_number' not in kwargs:
-            print('缺少学生班级')
-            return False
-        return True
+            raise LackArgsError('缺少学生班级')
+
+        name_val = kwargs['name']
+        age_val = kwargs['age']
+        sex_val = kwargs['sex']
+        class_number_val = kwargs['class_number']
+
+        if not isinstance(name_val, str):
+            raise TypeError('name 应该为 str类型')
+
+        if not isinstance(age_val, int):
+            raise TypeError('age 应该为 int类型')
+
+        if not isinstance(sex_val, str):
+            raise TypeError('sex 应该为 str类型')
+
+        if not isinstance(class_number_val, str):
+            raise TypeError('class_number 应该为 str类型')
 
     def add(self, **kwargs):
-        if self.check_info(**kwargs):
-            stu_id = max(self.students) + 1
-            self.students[stu_id] = {
-                'name': kwargs['name'],
-                'age': kwargs['age'],
-                'class_number': kwargs['class_number'],
-                'sex': kwargs['sex']
-            }
+        try:
+            self.check_info(**kwargs)
+        except (LackArgsError, TypeError) as e:
+            print(e)
+        stu_id = max(self.students) + 1
+        self.students[stu_id] = {
+            'name': kwargs['name'],
+            'age': kwargs['age'],
+            'class_number': kwargs['class_number'],
+            'sex': kwargs['sex']
+        }
 
     def delete(self, stu_id):
         if stu_id not in self.students:
@@ -87,11 +109,10 @@ class StudentManager:
         if student_id not in self.students:
             print('并不存在这个学号:{}'.format(student_id))
 
-        check = self.check_info(**kwargs)
-        if not check:
-            print(check)
-            return
-
+        try:
+            self.check_info(**kwargs)
+        except (LackArgsError, TypeError) as e:
+            print(e)
         self.students[student_id] = kwargs
         print('同学信息更新完毕')
 
@@ -99,6 +120,8 @@ class StudentManager:
         return self.students.get(student_id)
 
     def search(self, **kwargs):
+        assert len(kwargs) == 1, '参数应该为1个'
+
         values = list(self.students.values())
         key = None
         value = None
@@ -132,9 +155,10 @@ class StudentManager:
         :return:
         """
         for student in new_students:
-            check = self.check_info(**student)
-            if not check:
-                print(check, student.get('name'))
+            try:
+                self.check_info(**student)
+            except (LackArgsError, TypeError) as e:
+                print(e)
                 continue
             self.__add(**student)
 
@@ -155,13 +179,19 @@ class StudentManager:
 
     def batch_update(self, update_students):
         for student in update_students:
-            id_ = list(student.keys())[0]
+            try:
+                id_ = list(student.keys())[0]
+            except IndexError as e:
+                print(e)
+                continue
             if id_ not in self.students:
                 print(f'学号{id_} 不存在')
                 continue
             user_info = student[id_]
-            check = self.check_info(**user_info)
-            if not check:
+            try:
+                self.check_info(**user_info)
+            except (LackArgsError, TypeError) as e:
+                print(e)
                 continue
             self.students[id_] = user_info
         print('所有用户信息更新完成')
