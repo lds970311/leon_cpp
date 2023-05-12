@@ -28,7 +28,7 @@ def handle_time():
     print(time_str)  # 21:59:53
 
 
-def timeit(func):
+def time_calc(func):
     def wrapper(*args, **kwargs):
         start = time.time()
         result = func(*args, **kwargs)
@@ -39,7 +39,7 @@ def timeit(func):
     return wrapper
 
 
-@timeit
+@time_calc
 def my_func():
     time.sleep(1)
 

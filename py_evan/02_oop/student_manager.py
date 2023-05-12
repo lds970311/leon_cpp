@@ -1,42 +1,27 @@
 # coding:utf-8
 # time: 2023/5/10
 
-
-students_dict = {
-    1: {
-        'name': 'dewei',
-        'age': 33,
-        'class_number': 'A',
-        'sex': 'boy'
-    },
-    2: {
-        'name': '小慕',
-        'age': 10,
-        'class_number': 'B',
-        'sex': 'boy'
-    },
-    3: {
-        'name': '小曼',
-        'age': 18,
-        'class_number': 'A',
-        'sex': 'girl'
-    },
-    4: {
-        'name': '小高',
-        'age': 18,
-        'class_number': 'C',
-        'sex': 'boy'
-    },
-    5: {
-        'name': '小云',
-        'age': 18,
-        'class_number': 'B',
-        'sex': 'girl'
-    }
-}
+import json
+import logging
+import os
 
 
 class LackArgsError(Exception):
+    def __init__(self, msg):
+        self.msg = msg
+
+
+class JsonPathNotFoundError(Exception):
+    def __init__(self, msg):
+        self.msg = msg
+
+
+class NotFileError(Exception):
+    def __init__(self, msg):
+        self.msg = msg
+
+
+class NotJsonError(Exception):
     def __init__(self, msg):
         self.msg = msg
 
@@ -46,8 +31,60 @@ class StudentManager:
     学生管理系统
     """
 
-    def __init__(self, students: dict) -> None:
-        self.students = students
+    def __init__(self, json_path, log_path) -> None:
+
+        self.json_path = json_path
+        self.log_path = log_path
+        self.__init_log()
+        self.__check_path()
+        self.__load_data()
+
+    def __init_log(self):
+        mode = ''
+        if not os.path.exists(self.log_path):
+            mode = 'w'
+        else:
+            mode = 'a'
+
+        logging.basicConfig(
+            filename=self.log_path,
+            level=logging.DEBUG,
+            format='%(asctime)s %(filename)s [line=%(lineno)s %(levelname)s %(message)s]',
+            filemode=mode
+        )
+
+        self.log = logging
+
+    def __load_data(self):
+        with open(self.json_path, 'r') as f:
+            try:
+                data = f.read()
+            except Exception as e:
+                raise e
+        self.students = json.loads(data)
+
+    def __write_data(self):
+        with open(self.json_path, 'w') as f:
+            try:
+                str = json.dumps(self.students)
+            except Exception as e:
+                raise e
+
+            f.write(str)
+
+    def __check_path(self):
+        """
+        检查path是否合法
+        :return:
+        """
+        if not os.path.exists(self.json_path):
+            raise JsonPathNotFoundError("该文件不存在！")
+
+        if not os.path.isfile(self.json_path):
+            raise NotFileError("不是一个文件")
+
+        if not self.json_path.endswith(".json"):
+            raise NotJsonError("不是一个json文件")
 
     def get_all(self):
         for stu_id, value in self.students.items():
@@ -89,13 +126,19 @@ class StudentManager:
             self.check_info(**kwargs)
         except (LackArgsError, TypeError) as e:
             print(e)
-        stu_id = max(self.students) + 1
+        k = list(self.students.keys())
+        lds = []
+        for i in k:
+            lds.append(int(i))
+        stu_id = max(lds)
         self.students[stu_id] = {
             'name': kwargs['name'],
             'age': kwargs['age'],
             'class_number': kwargs['class_number'],
             'sex': kwargs['sex']
         }
+        self.__write_data()
+        self.__load_data()
 
     def delete(self, stu_id):
         if stu_id not in self.students:
@@ -103,7 +146,9 @@ class StudentManager:
             return None
 
         pop = self.students.pop(stu_id)
-        print('{} 同学的信息已经被删除！'.format(pop.get('name')))
+        self.__write_data()
+        self.__load_data()
+        self.log.info('{} 同学的信息已经被删除！'.format(pop.get('name')))
 
     def update(self, student_id, **kwargs):
         if student_id not in self.students:
@@ -114,7 +159,10 @@ class StudentManager:
         except (LackArgsError, TypeError) as e:
             print(e)
         self.students[student_id] = kwargs
-        print('同学信息更新完毕')
+        self.__write_data()
+        self.__load_data()
+        # print('同学信息更新完毕')
+        self.log.info(f'学号为{student_id} 的信息更新成功！')
 
     def get_by_id(self, student_id):
         return self.students.get(student_id)
@@ -161,6 +209,8 @@ class StudentManager:
                 print(e)
                 continue
             self.__add(**student)
+        self.__write_data()
+        self.__load_data()
 
     def __add(self, **student):
         new_id = max(self.students) + 1
@@ -194,12 +244,15 @@ class StudentManager:
                 print(e)
                 continue
             self.students[id_] = user_info
+        self.__write_data()
+        self.__load_data()
         print('所有用户信息更新完成')
 
 
 if __name__ == '__main__':
-    sm = StudentManager(students_dict)
-    # sm.get_all()
-    # sm.batch_delete([3, 4, 5])
-    # sm.get_all()
-    print(sm.search(age=18))
+    sm = StudentManager('student.json', 'student.log')
+    sm.get_all()
+    sm.add(name='leon', age=33, class_number='C', sex='boy')
+    # sm.delete('5')
+    sm.update('4', name='evan', age=33, class_number='C', sex='girl')
+    print(sm.get_by_id('2'))
