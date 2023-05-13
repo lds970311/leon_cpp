@@ -1,0 +1,42 @@
+{
+  "level1": {
+    "level1": {
+      "iPhone 14 Pro Max": {
+        "name": "iPhone 14 Pro Max",
+        "count": 1
+      }
+    },
+    "level2": {
+      "iPhone 14 Pro": {
+        "name": "iPhone 14 Pro",
+        "count": 1
+      }
+    },
+    "level3": {
+      "iPhone 14": {
+        "name": "iPhone 14",
+        "count": 3
+      }
+    }
+  },
+  "level2": {
+    "level1": {
+      "iPhone 13 Pro": {
+        "name": "iPhone 13 Pro",
+        "count": 4
+      }
+    },
+    "level2": {},
+    "level3": {}
+  },
+  "level3": {
+    "level1": {},
+    "level2": {},
+    "level3": {}
+  },
+  "level4": {
+    "level1": {},
+    "level2": {},
+    "level3": {}
+  }
+}

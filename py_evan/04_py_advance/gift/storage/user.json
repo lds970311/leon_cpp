@@ -1,0 +1,18 @@
+{
+  "leon": {
+    "username": "leon",
+    "role": "admin",
+    "active": true,
+    "create_time": "2023-05-12 18:40:43",
+    "update_time": "2023-05-12 18:40:43",
+    "gifts": []
+  },
+  "evan": {
+    "username": "evan",
+    "role": "admin",
+    "active": true,
+    "create_time": "2023-05-12 22:40:14",
+    "update_time": "2023-05-12 22:40:14",
+    "gifts": []
+  }
+}
