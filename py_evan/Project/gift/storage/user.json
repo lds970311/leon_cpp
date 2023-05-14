@@ -1,0 +1,63 @@
+{
+  "leon": {
+    "username": "leon",
+    "role": "admin",
+    "active": true,
+    "create_time": "2023-05-12 18:40:43",
+    "update_time": "2023-05-12 18:40:43",
+    "gifts": []
+  },
+  "evan": {
+    "username": "evan",
+    "role": "admin",
+    "active": true,
+    "create_time": "2023-05-12 22:40:14",
+    "update_time": "2023-05-12 22:40:14",
+    "gifts": []
+  },
+  "Sam": {
+    "username": "Sam",
+    "role": "normal",
+    "active": true,
+    "create_time": "2023-05-13 09:34:56",
+    "update_time": "2023-05-13 09:34:56",
+    "gifts": []
+  },
+  "Lucy": {
+    "username": "Lucy",
+    "role": "normal",
+    "active": true,
+    "create_time": "2023-05-13 09:34:56",
+    "update_time": "2023-05-13 09:34:56",
+    "gifts": []
+  },
+  "Ada": {
+    "username": "Ada",
+    "role": "normal",
+    "active": true,
+    "create_time": "2023-05-13 09:34:56",
+    "update_time": "2023-05-13 09:34:56",
+    "gifts": [
+      "iPhone 13 Pro",
+      "iPhone 14 Pro Max",
+      "iPhone 13 Pro",
+      "iPhone 14"
+    ]
+  },
+  "Louis": {
+    "username": "Louis",
+    "role": "normal",
+    "active": true,
+    "create_time": "2023-05-13 09:34:56",
+    "update_time": "2023-05-13 09:34:56",
+    "gifts": []
+  },
+  "Joe": {
+    "username": "Joe",
+    "role": "normal",
+    "active": true,
+    "create_time": "2023-05-13 09:34:56",
+    "update_time": "2023-05-13 09:34:56",
+    "gifts": []
+  }
+}

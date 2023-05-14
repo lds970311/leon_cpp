@@ -40,6 +40,9 @@ class Base:
             data = json.loads(f.read())
         return data
 
+    def get_all_gifts(self):
+        return self.__read_gifts()
+
     def __init_gifts(self):
         data = {
             'level1': {
@@ -96,7 +99,8 @@ class Base:
         gift_data = json.dumps(gitfs)
         self.__save_data(gift_data, self.gift_json)
 
-    def update_gift(self, first_level: str, second_level: str, gift_name: str, gift_count: int = 1) -> bool:
+    def update_gift(self, first_level: str, second_level: str, gift_name: str, gift_count: int = 1,
+                    is_admin=False) -> bool:
         if first_level not in FIRST_LEVAL or second_level not in FIRST_LEVAL:
             raise error.LevelError("礼物等级不符合要求，格式：level1/level2")
         gifts = self.__read_gifts()
@@ -106,7 +110,13 @@ class Base:
             return False
         if second_pool[gift_name]['count'] - gift_count < 0:
             return False
-        second_pool[gift_name]['count'] -= gift_count
+
+        if is_admin:
+            if gift_count <= 0:
+                return False
+            second_pool[gift_name]['count'] = gift_count
+        else:
+            second_pool[gift_name]['count'] -= gift_count
         self.__save_data(json.dumps(gifts), self.gift_json)
         return True
 
@@ -144,7 +154,7 @@ class Base:
         self.__save_data(json_user, self.user_json)
 
     def change_role(self, username: str, role: str) -> bool:
-        users = self.__read_users()
+        users = self.read_users()
         m_user = users.get(username)
         if not m_user:
             return False
@@ -158,7 +168,7 @@ class Base:
         return True
 
     def change_active(self, username: str) -> bool:
-        users = self.__read_users()
+        users = self.read_users()
         user = users.get(username)
         if not user:
             return False
@@ -171,7 +181,7 @@ class Base:
         return True
 
     def delete_user(self, username: str):
-        users = self.__read_users()
+        users = self.read_users()
         user = users.get(username)
         if not user:
             return False
@@ -182,16 +192,16 @@ class Base:
 
 
 if __name__ == '__main__':
-    gift_path = os.path.join(os.getcwd(), "./storage/gift.json")
-    user_path = os.path.join(os.getcwd(), "./storage/user.json")
+    gift_path = os.path.join(os.getcwd(), "storage/gift.json")
+    user_path = os.path.join(os.getcwd(), "storage/user.json")
     base = Base(user_path, gift_path)
     # base.write_user(username='leon', role='admin')
     # print(base.change_role('leon', 'normal'))
     # print(base.change_active('leon'))
     # print(base.delete_user('leon'))
-    # base.write_gift('level1', 'level1', 'iPhone 14 Pro Max', 1)
-    # base.write_gift('level1', 'level2', 'iPhone 14 Pro', 2)
-    # base.write_gift('level1', 'level3', 'iPhone 14', 3)
-    # base.write_gift('level2', 'level1', 'iPhone 13 Pro', 4)
-    # base.update_gift('level1', 'level2', 'iPhone 14 Pro')
-    base.delete_gift('level2', 'level2', "iPhone 12 Pro")
+    base.write_gift('level1', 'level1', 'iPhone 14 Pro Max', 1)
+    base.write_gift('level1', 'level2', 'iPhone 14 Pro', 2)
+    base.write_gift('level1', 'level3', 'iPhone 14', 3)
+    base.write_gift('level2', 'level1', 'iPhone 13 Pro', 4)
+    base.update_gift('level1', 'level2', 'iPhone 14 Pro')
+    #  base.delete_gift('level2', 'level2', "iPhone 12 Pro")

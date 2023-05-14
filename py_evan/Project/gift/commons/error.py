@@ -41,3 +41,8 @@ class UserNotFoundError(Exception):
 class UserActiveError(Exception):
     def __init__(self, message='当前用户已被冻结'):
         self.message = message
+
+
+class CountError(Exception):
+    def __init__(self, message):
+        self.message = message
