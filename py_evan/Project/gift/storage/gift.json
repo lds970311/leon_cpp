@@ -3,7 +3,7 @@
     "level1": {
       "iPhone 14 Pro Max": {
         "name": "iPhone 14 Pro Max",
-        "count": 1
+        "count": 5
       }
     },
     "level2": {
@@ -15,7 +15,7 @@
     "level3": {
       "iPhone 14": {
         "name": "iPhone 14",
-        "count": 3
+        "count": 2
       }
     }
   },
@@ -23,7 +23,7 @@
     "level1": {
       "iPhone 13 Pro": {
         "name": "iPhone 13 Pro",
-        "count": 4
+        "count": 2
       }
     },
     "level2": {},
