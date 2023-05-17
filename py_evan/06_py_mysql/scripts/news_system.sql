@@ -57,4 +57,15 @@ create table t_news
     index (state),
     index (create_time),
     index (is_top)
-)
+);
+
+select n.id,
+       n.title,
+       t.type_name,
+       u.username
+from t_news n
+         join t_type t on n.type_id = t.id
+         join t_user u on n.editor_id = u.id
+where n.state = '待审批'
+order by n.create_time desc
+limit 0,5
