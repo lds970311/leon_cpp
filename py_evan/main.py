@@ -1,6 +1,8 @@
 import math
 import os
 
+from colorama import Back, Fore, Style
+
 
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
@@ -9,4 +11,6 @@ def print_hi(name):
 
 
 if __name__ == '__main__':
-    print(math.floor(3.2))
+    print(Back.LIGHTBLACK_EX, math.floor(3.2))
+    print(Fore.LIGHTMAGENTA_EX, 'hi')
+    print(Style.RESET_ALL, '...')
