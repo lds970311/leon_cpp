@@ -1,0 +1,2 @@
+select address
+from student;

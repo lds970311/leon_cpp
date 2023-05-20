@@ -28,8 +28,8 @@ try:
     con.expire("kill_flag", 600)
 except Exception as e:
     print(e)
-
-executor = ThreadPoolExecutor(200)
+finally:
+    del con
 
 
 def buy():
