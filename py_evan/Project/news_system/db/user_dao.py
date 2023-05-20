@@ -111,7 +111,20 @@ class UserDao:
             if 'con' in dir():
                 con.close()
 
+    def search_userid(self, username):
+        try:
+            con = pool.get_connection()
+            cursor = con.cursor()
+            sql = "select id from t_user where username=%s"
+            cursor.execute(sql, [username])
+            return cursor.fetchone()[0]
+        except Exception as e:
+            print(e)
+        finally:
+            if 'con' in dir():
+                con.close()
+
 
 if __name__ == '__main__':
     user_dao = UserDao()
-    print(user_dao.search_count_page())
+    print(user_dao.search_userid('evan'))

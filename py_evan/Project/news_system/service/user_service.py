@@ -27,3 +27,11 @@ class UserService:
 
     def update(self, user_id, username, password, email, role_id):
         return self.__user_dao.update(user_id, username, password, email, role_id)
+
+    def search_userid(self, username):
+        """
+        查询用户id
+        :param username:
+        :return:
+        """
+        return self.__user_dao.search_userid(username)
