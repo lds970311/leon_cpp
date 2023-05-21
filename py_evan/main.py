@@ -1,7 +1,6 @@
-import math
 import os
 
-from colorama import Back, Fore, Style
+import requests
 
 
 def print_hi(name):
@@ -11,6 +10,15 @@ def print_hi(name):
 
 
 if __name__ == '__main__':
-    print(Back.LIGHTBLACK_EX, math.floor(3.2))
-    print(Fore.LIGHTMAGENTA_EX, 'hi')
-    print(Style.RESET_ALL, '...')
+    """
+        print(Back.LIGHTBLACK_EX, math.floor(3.2))
+        print(Fore.LIGHTMAGENTA_EX, 'hi')
+        print(Style.RESET_ALL, '...')
+    """
+
+    headers = {
+        'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    }
+
+    response = requests.get('https://missav.com', headers=headers)
+    print(response.text)
