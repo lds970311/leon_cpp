@@ -186,3 +186,24 @@ class NewsDao:
         finally:
             if 'con' in dir():
                 con.close()
+
+    def search_content_id(self, id):
+        """
+        根据新闻id查找content_id
+        :param id:
+        :return:
+        """
+        try:
+            con = pool.get_connection()
+            cursor = con.cursor()
+            sql = '''       
+                    select  content_id from t_news  where id=%s
+            '''
+            cursor.execute(sql, [id])
+            result = cursor.fetchone()[0]
+            return result
+        except Exception as e:
+            print(e)
+        finally:
+            if 'con' in dir():
+                con.close()

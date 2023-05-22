@@ -1,13 +1,12 @@
 # coding:utf-8
 # time: 2023/5/16
 # author: evan
-import hashlib
 import os
-import random
 import sys
 import time
 
 from colorama import Fore, Style
+from service.mongo_news_service import MongoNewsService
 
 from service.news_service import NewsService
 from service.redis_service import RedisNewsService
@@ -20,6 +19,7 @@ __news_service = NewsService()
 __role_service = RoleService()
 __type_service = TypeService()
 __redis_news_service = RedisNewsService()
+__mongo_service = MongoNewsService()
 
 
 def clear_screen():
@@ -66,12 +66,12 @@ if __name__ == '__main__':
                             opt = input("\n\t类型编号:")
                             type_id = result[int(opt) - 1][0]
 
-                            # TODO 新闻正文内容,contnet_id后期修改
-                            content_id = hashlib.md5(str(random.randint(1000, 5000)).encode('utf-8')).hexdigest()
+                            # content_id = hashlib.md5(str(random.randint(1000, 5000)).encode('utf-8')).hexdigest()
+                            content = input('\n\t 请输入新闻正文内容： ')
                             is_top = input("\n\t置顶级别(0-5):")
                             is_commite = input("\n\t是否提交(Y/N):")
                             if is_commite == "Y" or is_commite == "y":
-                                __news_service.insert(title, userid, type_id, content_id, is_top)
+                                __news_service.insert(title, userid, type_id, content, is_top)
                                 print("\n\t保存成功(3秒自动返回)")
                                 time.sleep(3)
 
@@ -115,14 +115,14 @@ if __name__ == '__main__':
                                     print(Style.RESET_ALL)
                                     opt = input("\n\t类型编号:")
                                     type_id = result[int(opt) - 1][0]
-                                    # TODO 输入新闻内容
-                                    content_id = hashlib.md5(
-                                        str(random.randint(1000, 5000)).encode('utf-8')).hexdigest()
+
+                                    content = input('\n\t 新的正文内容：')
+
                                     print("\n\t原置顶级别: %s" % (is_top))
                                     new_is_top = input("\n\t置顶级别(0-5):")
                                     is_commite = input("\n\t是否提交？(Y/N):")
                                     if is_commite == "Y" or is_commite == "y":
-                                        __news_service.update(news_id, new_title, type_id, content_id, new_is_top)
+                                        __news_service.update(news_id, new_title, type_id, content, new_is_top)
                                         print("\n\t保存成功(3秒自动返回)")
                                         time.sleep(3)
 
@@ -195,8 +195,7 @@ if __name__ == '__main__':
                                             type = result[2]
                                             content_id = result[3]
 
-                                            # TODO 查找新闻正文,正文内容暂定100,以后根据content_id到mongoDB查找
-                                            content = '100'
+                                            content = __news_service.search_content_by_id(content_id)
                                             is_top = result[4]
                                             create_time = str(result[5])
                                             __news_service.cache_news(news_id, title, username, type,
