@@ -6,7 +6,6 @@ import sys
 import time
 
 from colorama import Fore, Style
-from service.mongo_news_service import MongoNewsService
 
 from service.news_service import NewsService
 from service.redis_service import RedisNewsService
@@ -19,7 +18,6 @@ __news_service = NewsService()
 __role_service = RoleService()
 __type_service = TypeService()
 __redis_news_service = RedisNewsService()
-__mongo_service = MongoNewsService()
 
 
 def clear_screen():
