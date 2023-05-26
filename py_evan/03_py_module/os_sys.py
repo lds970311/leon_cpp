@@ -12,7 +12,7 @@ def os_handle():
     current_path = os.getcwd()
     print(current_path)
     dirs = os.listdir('/home/lds/Desktop/Programs/leon_cpp/py_evan')
-    print(dirs)  # ['03_py_module', '02_oop', 'main.py', '01_py_base', '.idea']
+    print(dirs)  # ['03_py_module', '02_oop', 'app.py', '01_py_base', '.idea']
     os.makedirs(f'{current_path}/leon/time')  # 创建文件夹
     time.sleep(1)
     os.removedirs(f'{current_path}/leon/time')

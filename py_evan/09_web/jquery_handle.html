@@ -6,12 +6,128 @@
     <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.4/jquery.js"></script>
 </head>
 <body>
-<input id="username" type="text">
+
 <script>
-    $(function () {
+    /*$(function () {
         $('#username').val(' hehehe')
+
+        p = $('p:eq(1)')
+        console.log(p)
+    })*/
+
+    $(function () {
+        // js业务逻辑和html分离
+
+        // 鼠标单击事件
+        // $('div').click(function() {
+        // 	alert('点击了')
+        // })
+
+        // 双击事件
+        // $('div').dblclick(function() {
+        // 	alert('点击了2次')
+        // });
+
+        $('div').on('dblclick', function () {
+            alert('点击了2次')
+        })
+
+        // hover
+        // $('div').mouseenter(function() {
+        // 	$(this).css({
+        // 		'background-color': '#f00'
+        // 	})
+        // }).mouseleave(function() {
+        // 	$(this).css({
+        // 		'background-color': '#fff'
+        // 	})
+        // })
+
+        $('div').hover(function () {
+            $(this).css({
+                'background-color': '#00f'
+            })
+        }, function () {
+            $(this).css({
+                'background-color': '#fff'
+            })
+        })
+
+        // 绑定键盘事件
+        $('#username').keyup(function () {
+            var val = $(this).val()
+            console.log(val)
+        })
+
+        // 用户名获得焦点
+        $("#uname").focus();
+        $("#uname").blur(function () {
+            var phone = $(this).val()
+            if (phone.length !== 11) {
+                $("#txtError").text('输入的手机号码不正确')
+            }
+        })
+
+        // 性别选择发生变化时触发
+        $('#sex').change(function () {
+            var sex = $(this).val()
+            console.log(sex)
+        })
+
+        // 表单提交
+        $('form').submit(function () {
+            alert('表单提交了')
+            // 验证我们的表单
+            // 验证通过了，才需要提交表单
+            return false; // 阻止表单的提交
+        })
+
+        // a标签的事件
+        $('.reg2').click(function (event) {
+            // 阻止a标签的默认行为
+            event.preventDefault()
+            alert('a click')
+        });
+
+        $('.reg').click(function (event) {
+            alert('a click 2')
+        })
+
+        // 事件的冒泡
+        $('.reg3').click(function () {
+            alert('reg3');
+        })
+        $('.reg3 span').click(function (e) {
+            // 阻止事件冒泡
+            e.stopPropagation();
+            alert('reg3 span')
+        })
     })
 
 </script>
+
+<!-- <div onclick="clickMe()">请点击我</div> -->
+<div>请点击我</div>
+<input id="username" name="username" type="text">
+<form action="." method="get">
+    <label for="uname"></label><input id="uname" name="uname" type="text">
+    <p class="text-danger" id="txtError"></p>
+    <select id="sex" name="sex">
+        <option value="1">男</option>
+        <option value="0">女</option>
+    </select>
+    <label>
+        <input name="password" type="password">
+    </label>
+    <input type="submit" value="注册">
+    <button type="submit">提交</button>
+</form>
+<a class="reg2" href="http://imooc.com">注册</a>
+<a class="reg" href="javascript:;">注册会员</a>
+<a class="reg" href="javascript:void(0);">注册会员</a>
+
+<a class="reg3" href="avascript:;">
+    <span>点击我</span>
+</a>
 </body>
 </html>
