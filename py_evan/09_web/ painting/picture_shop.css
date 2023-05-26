@@ -96,10 +96,11 @@ li, a {
 }
 
 .img-content ul li {
-    flex-basis: calc(100% / 3);
+
     box-sizing: border-box;
     padding: 0 20px;
     margin-top: 30px;
+    flex: 1 1 content;
 }
 
 .img-content .info h3 {
