@@ -9,6 +9,9 @@ from flask import Flask, render_template, request, \
 app = Flask(__name__, template_folder='./templates')
 
 
+# 添加break， continue扩展
+
+
 @app.route('/')
 def hello_world():  # put application's code here
     redirect('/hello')
@@ -68,6 +71,44 @@ def render_html():
         content = f.read()
 
     return make_response(content, 200)
+
+
+@app.route('/condition')
+def condition():
+    age = 32
+
+    return render_template('condition.html', age=age)
+
+
+@app.route('/condition_for')
+def condition_for():
+    list_user = [
+        {'username': '张三', 'age': 32, 'address': '北京'},
+        {'username': '李四', 'age': 22}
+    ]
+
+    return render_template('condition.html', list_user=list_user)
+
+
+@app.route('/filter')
+def filter_test():
+    phone_num = '15544445642'
+    return render_template('filter.html', phone_num=phone_num)
+
+
+@app.template_filter('num_filter')
+def num_filter(num):
+    '*'
+    return num[0:3] + "****" + num[7:]
+
+
+@app.route('/macro')
+def macro():
+    """
+    模板中使用宏
+    :return:
+    """
+    return render_template("/macro.html")
 
 
 if __name__ == '__main__':

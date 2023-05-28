@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flask模板中的宏</title>
+    <style type="text/css">
+        .input-control {
+            border: 1px solid #ff0000;
+        }
+    </style>
+</head>
+<body>
+<form action="">
+    {% macro input(name, type='text', value='') %}
+        <div>
+            <input class="input-control class2" type="{{ type }}" name="{{ name }}" value="{{ value }}">
+        </div>
+    {% endmacro %}
+    {#  用户名 username  #}
+    {{ input('username', value='admin') }}
+    {#  密码 password  #}
+    {{ input('password', type='password') }}
+    {#  年龄 age  #}
+    {{ input('age', type='number') }}
+
+
+    {% from 'forms.html' import input as form_input %}
+    <h3>通过import导入宏</h3>
+    <p>
+        {{ form_input('code') }}
+    </p>
+</form>
+</body>
+</html>
