@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jinja Condition</title>
+</head>
+<body>
+{#{% if age > 50 %}
+    <h3> age higher</h3>
+{% elif 40<= age<=50 %}
+    <h3>age mid</h3>
+{% else %}
+    <h3>age = {{ age }}</h3>
+{% endif %}#}
+<ul>
+    {% for item in list_user -%}
+        <li>
+            <span>姓名： {{ item['username'] }} {{ loop.index }}</span>
+            <span>年龄： {{ item['age'] }}</span>
+            <span>{{ 3| }}</span>
+            {% if item['address'] is defined -%}
+                <span>地址： {{ item['address'] }}</span>
+            {%- endif %}
+        </li>
+    {%- endfor %}
+</ul>
+
+</body>
+</html>
