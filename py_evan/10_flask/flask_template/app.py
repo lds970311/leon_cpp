@@ -2,9 +2,10 @@
 # time: 2023/5/27
 # author: evan
 
-from flask import Flask, render_template
+from flask import Flask, render_template, flash
 
 app = Flask(__name__, template_folder='./templates')
+app.secret_key = 'secret_key_evan'
 
 
 @app.route('/')
@@ -35,6 +36,16 @@ def article():
 def wenda():
     """  实战课程 """
     return render_template('wenda.html')
+
+
+@app.route('/flash')
+def flash_msg():
+    """
+    消息闪现
+    :return:
+    """
+    flash('hahaha', 'warn')
+    return render_template('index.html')
 
 
 if __name__ == '__main__':
