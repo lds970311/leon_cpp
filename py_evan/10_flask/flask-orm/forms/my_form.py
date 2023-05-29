@@ -44,5 +44,5 @@ class LoginForm(FlaskForm):
     username = StringField(label='用户名')
     password = PasswordField(label='密码', validators=[DataRequired('请输入密码'), password_required])
     avatar = FileField(label='头像',
-                       validators=[FileRequired('请选择头像'), FileAllowed(['jpg', 'png'], '仅支持png，jpg格式')])
+                       validators=[FileAllowed(['jpg', 'png'], '仅支持png，jpg格式')])
     submit = SubmitField('注册')
