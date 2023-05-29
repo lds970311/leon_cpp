@@ -69,7 +69,9 @@ def page_form():
 
         # 获取图片
         img = form.avatar.data
-        f_name = secure_filename(img.filename)
+        print(form.avatar.data)
+        f_name = secure_filename(img)
+        print(f_name)
         path = os.path.join(os.path.dirname(__name__), 'imgs', f_name)
         img.save(path)
     else:

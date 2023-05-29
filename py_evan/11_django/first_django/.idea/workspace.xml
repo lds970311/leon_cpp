@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="02d49d61-7d65-4903-978c-b3462c3f9145" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_django/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_django/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_django/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_django/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_django/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_django/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloworld/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloworld/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloworld/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloworld/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloworld/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloworld/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloworld/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloworld/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/python.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tem_handler/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tem_handler/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tem_handler/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tem_handler/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tem_handler/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tem_handler/templates/tmp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tem_handler/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tem_handler/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tem_handler/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/my_view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../10_flask/flask-orm/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../10_flask/flask-orm/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../10_flask/flask-orm/forms/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../10_flask/flask-orm/forms/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../10_flask/flask-orm/forms/my_form.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../10_flask/flask-orm/forms/my_form.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="2QSPkPSpsoC6RzaAPy64Zn6VoE9" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/lds/Desktop/Programs/leon_cpp/py_evan/11_django/first_django",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="first_django" type="Python.DjangoServer" factoryName="Django server">
+      <module name="first_django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="first_django.settings" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.8" />
+      <option name="SDK_NAME" value="Python 3.8" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="0.0.0.0" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="02d49d61-7d65-4903-978c-b3462c3f9145" name="Changes" comment="" />
+      <created>1685344151618</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685344151618</updated>
+      <workItem from="1685344153307" duration="11894000" />
+      <workItem from="1685392261875" duration="4270000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

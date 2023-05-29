@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="main">
+    <h4>{{ username }}</h4>
+    <h4>{{ age }}</h4>
+    <ul>
+        {% for h in heros %}
+            <li>{{ h.name }} == {{ h.job }}</li>
+        {% endfor %}
+    </ul>
+    <p>time:{% now 'js F Y H:i' %}</p>
+</div>
+</body>
+</html>
