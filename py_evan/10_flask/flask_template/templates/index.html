@@ -4,3 +4,9 @@
 
     {% include "include.html" with context %}
 {% endblock %}
+
+<p>
+    {% for cate,msg in get_flashed_messages() %}
+        <span>{{ msg }}</span>
+    {% endfor %}
+</p>
