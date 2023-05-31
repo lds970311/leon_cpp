@@ -17,5 +17,6 @@ def index(request: HttpRequest):
     return render(request, 'tmp.html', {
         'username': username,
         'age': age,
-        'heros': l
+        'heros': l,
+        'phonenum': '13355663344'
     })
