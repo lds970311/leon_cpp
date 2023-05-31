@@ -5,6 +5,7 @@
     <title>Title</title>
 </head>
 <body>
+{% load custom_filters %}
 <div class="main">
     <h4>{{ username }}</h4>
     <h4>{{ age }}</h4>
@@ -14,6 +15,7 @@
         {% endfor %}
     </ul>
     <p>time:{% now 'js F Y H:i' %}</p>
+    <p>{{ phonenum | phonenum_filter }}</p>
 </div>
 </body>
 </html>
