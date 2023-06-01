@@ -1,0 +1,324 @@
+[
+  {
+    "title": "JavaScript高级程序设计（第3版）",
+    "author": "[美]尼古拉斯·泽卡斯 ",
+    "press": " 人民邮电出版社 ",
+    "price": " ￥99.00元",
+    "desc": "本书是JavaScript 超级畅销书的最新版。ECMAScript 5 和HTML5 在标准之争中双双胜出，使大量专有实现和客户端扩展正式进入规范，同时也为JavaScript 增添了很多适应未来发展的新特性。本书这一版除增加5 章全新内容外，其他章节也有较大幅度的增补和修订，新内容篇幅约占三分之一。全书从JavaScript 语言实现的各个组成部分——语言核心、DOM、BOM、事件模型讲起，深入浅出地探讨了面向对象编程、Ajax 与Comet 服务器端通信，HTML5 表单、媒体、Canvas（包括WebGL）及Web Workers、地理定位、跨文档传递消息、客户端存储（包括IndexedDB）等新API，还介绍了离线应用和与维护、性能、部署相关的最佳开发实践。本书附录展望了未来的API 和ECMAScript Harmony 规范。\\n本书适合有一定编程经验的Web 应用开发人员阅读，也可作为高校及社会实用技术培训相关专业课程的教材。"
+  },
+  {
+    "title": "JavaScript语言精粹",
+    "author": "DouglasCrockford ",
+    "press": " 电子工业出版社 ",
+    "price": " ￥35.00元",
+    "desc": "本书通过对JavaScript语言的分析，甄别出好的和坏的特性，从而提取出相对这门语言的整体而言具有更好的可靠性、可读性和可维护性的JavaScript的子集，以便你能用它创建真正可扩展的和高效的代码。\\n雅虎资深JavaScript架构师Douglas Crockford倾力之作。\\n向读者介绍如何运用JavaScript创建真正可扩展的和高效的代码。"
+  },
+  {
+    "title": "JavaScript DOM编程艺术 （第2版）",
+    "author": "[英] Jeremy Keith、[加] Jeffrey Sambells ",
+    "press": " 人民邮电出版社 ",
+    "price": " ￥49.00元",
+    "desc": "JavaScript是Web开发中最重要的一门语言，它强大而优美。无论是桌面开发，还是移动应用。JavaScript都是必须掌握的技术。W3C的DOM标准是开发Web应用的基石。已经得到所有现代浏览器的支持，这使得跨平台Web开发成了一件轻松惬意的事。\\n本书是超级畅销书的升级版，由倡导Web标准的领军人物执笔，揭示了前端开发的真谛，是学习JavaScript和DOM开发的必读之作。\\n本 书在简洁明快地讲述JavaScript和DOM的基本知识之后，通过几个实例演示了专业水准的网页开发技术，透彻阐述了平稳退化等一批至关重要的 JavaScript编程原则和最佳实践，并全面探讨了HTML5以及jQuery等JavaScript库。读者将看到JavaScript、 HTML5和CSS如何协作来创建易用的、与标准兼容的Web设计，掌握使用JavaScript和DOM通过客户端动态效果和用户控制的动画来加强 Web页面的必备技术；同时，还将对如何利用库提高开发效率有全面深入的理解。"
+  },
+  {
+    "title": "JavaScript设计模式与开发实践",
+    "author": "曾探 ",
+    "press": " 人民邮电出版社 ",
+    "price": " ￥59.00元",
+    "desc": "本书在尊重《设计模式》原意的同时，针对JavaScript语言特性全面介绍了更适合JavaScript程序员的了16个常用的设计模式，讲解了JavaScript面向对象和函数式编程方面的基础知识，介绍了面向对象的设计原则及其在设计模式中的体现，还分享了面向对象编程技巧和日常开发中的代码重构。本书将教会你如何把经典的设计模式应用到JavaScript语言中，编写出优美高效、结构化和可维护的代码。"
+  },
+  {
+    "title": "JavaScript & jQuery交互式Web前端开发",
+    "author": "[美]达克特(Duckett,J.) ",
+    "press": " 清华大学出版社 ",
+    "price": " ￥79.80元",
+    "desc": "欢迎选择一种更高效的学习JavaScript和jQuery的方式。\\n你是一名JavaScript新手?或是您曾经向自己的Web页面上添加过一些脚本，但想以一种更好的方式来实现它们？本书非常适合您。本书不仅向您展示如何阅读和编写JavaScript代码，同时还会以一种简单且视觉化的方式，教您有关计算机编程的基础知识。阅读本书之前，您只需要对HTML和CSS有一些了解即可。\\n通过将编程理论与用来演示JavaScript和jQuery如何被应用于流行站点之上的示例相结合，本书将教会您如何让网站更具交互性、吸引性、可用性。很快，您就能够像一名程序员那样去思考和编写代码了。"
+  },
+  {
+    "title": "基于MVC的JavaScript Web富应用开发",
+    "author": "麦卡劳(Alex MacCaw) ",
+    "press": " 电子工业出版社 ",
+    "price": " ￥59.00元",
+    "desc": "《JavaScript Web 富应用开发》Developing JavaScript Web Applications是 Alex MacCaw 的新作（由O'Reilly出版发行），本书系统而深入的讲解了如何使用最前沿的Web技术构建下一代互联网富应用程序。作者 Alex MacCaw 是一名Ruby/JavaScript 程序员，在开源社区中很有名望，是Spine框架的作者，同时活跃在纽约、旧金山和柏林的各大 Ruby/Rails 论坛。除了作为一名工程师，他还喜欢带着他的尼康D90和冲浪板环游世界。\\n有赖于强大的JavaScript引擎以及CSS3和HTML5新技术，如今的JavaScript Web 富应用的用户体验已经可以和桌面系统相媲美。关键是如何平滑的将服务器端的复杂度移植到客户端，这并不容易做到。这本书将专注于讲述如何构建“优雅又不失高水准”（state of the art）的JavaScript应用，包括软件架构、模板引擎、框架和库、同服务器的消息通信等内容。\\n通过由浅入深的讲解，你将学会如何构建具有丰富交互以及优雅体验的JavaScript应用，书中同样提供了大量的示例代码，可以帮助你更深入的理解很多重要的概念。\\n揭开MVC的神秘面纱，教你如何设计合理的架构以及处理应用内部模块之间的依赖\\n介绍模板引擎和数据绑定\\n讲解远程数据加载、第二代Ajax以及跨域请求\\n利用WebSockets和Node构建实时应用\\n拖拽上传文件以及上传进度提示\\n讲解主流的库和框架，包括jQuery、JavaScriptMVC以及Backbone\\n编写测试用例，并使用控制台工具来调试你的应用\\n部署应用的最佳实践，比如缓存机制和代码压缩等"
+  },
+  {
+    "title": "JavaScript面向对象精要",
+    "author": "[美]尼古拉斯·泽卡斯 ",
+    "press": " 人民邮电出版社 ",
+    "price": " ￥39.00",
+    "desc": "本书关注面向对象的原理和ES5对象新特性，目的是帮助那些已经熟知面向对象编程的读者掌握这些概念是如何在JavaScript中工作的。\\n本书内容简洁而精妙。全书共6章，分别深入探讨了原始类型和引用类型、函数、对象、构造函数和原型对象、继承和对象模式等主题和特性。在本书中，你将学到JavaScript独特的面向对象的编程方式；抛弃类的概念和基于类的继承，学习基于原型的继承和构造函数。你将学会如何创建对象、定义自己的类型、使用继承以及其他各种操作来充分使用对象。总而言之，你将学到JavaScript语言并进行专业编程所需熟知的一切。\\n本书适合熟悉面向对象编程的概念并希望将其应用于JavaScript的开发者阅读，也适合JavaScript新手学习参考。"
+  },
+  {
+    "title": "JavaScript模式",
+    "author": "Stoyan Stefanov ",
+    "press": " 中国电力出版社 ",
+    "price": " ￥38.00元",
+    "desc": "《JavaScript模式》包含了实现每个讨论的模式的实践建议，并附有数个可以立即上手的范例。同时还可以学到一些反模式，一些常见的编程方式，这些编程方式引发的问题比解决的还多。它不是一本入门级的书，而是适用于希望将自身的Javascript技巧提高到一个新层次的专业的开发人员和程序员。全书共八章节，内容包括简介、基本技巧、字面量和构造函数、函数、对象创建模式、代码复用模式等。"
+  },
+  {
+    "title": "JavaScript编程全解",
+    "author": "［日］井上诚一郎、［日］土江拓郎、［日］滨边将太 ",
+    "press": " 人民邮电出版社 ",
+    "price": " ￥79.00",
+    "desc": "本书全方位地介绍了JavaScript开发中的各个主题，无论是前端还是后端的JavaScript开发者都可以在本书中找到自己需要的内容。本书对HTML5、Web API、Node.js及WebSocket等最新的热门技术也作了深入浅出的介绍，并提供了大量实际应用范例。\\n本书语法说明系统深入、示例代码规范详细，对容易产生问题之处均做了重点说明，不仅适合初学者入门，而且有经验的JavaScript开发人员、项目负责人也能从中受益。"
+  },
+  {
+    "title": "JavaScript面向对象编程指南（第2版）",
+    "author": "[加拿大] Stoyan Stefanov 斯托扬 著 ",
+    "press": " 人民邮电出版社 ",
+    "price": " ￥69元",
+    "desc": "1.本书是唯一一本介绍JavaScript面向对象编程的图书。\\n2.本书作者是知名的Web开发人员和作者。受到国内众多前端开发人员，如淘宝UED团队的推崇和推荐。 Stoyan Stefanov：Facebook公司工程师、作家、演说家。他经常会在其博客（www.phpied.com）与一些相关会议中就Web开发话题发表独到见解。他还运营着其他一些网站，其中包括JSPatterns.com—一个用于探讨JavaScript模式的网站。\\n3.本书内容较为简单，初学者容易上手。\\n内容提要\\nJavaScript语言是一种具有高度表达能力的、基于原型特性的、非常灵活的面向对象程序设计语言。本书着重于介绍JavaScript在面向对象方面的特性，以为您展示如何去构建强健的、可维护的、功能强大的应用程序及程序库。\\n本书是《JavaScript面向对象编程指南》的第二版，全书包括8章和4个附录。依次介绍了JavaScript的发展历史、基础性话题（变量、数据类型、数组、循环以及条件表达式）、函数、对象、原型、继承的实现、BOM和DOM等。附录部分包括了学习JavaScript编程常用的参考资源。尤其值得一提的是，本书作者是JavaScript设计模式方面的专家，他在本书第8章中介绍了几种常用的JavaScript编程模式，这也成为他的另一本重要著作《JavaScript模式》（JavaScript Patterns）奠定了基础。\\n本书全面地覆盖了JavaScript语言的OO特性，同时兼顾基础知识，对初学者来说，是难得的JavaScript佳作。读者不需要具备任何的JavaScript基础知识及项目经验，通过学习这本书，将会在面试有关JavaScript程序设计的职位时游刃有余。"
+  },
+  {
+    "title": "JAVASCRIPT语言精髓与编程实践",
+    "author": "周爱民 ",
+    "press": " 电子工业出版社 ",
+    "price": " ￥68.00元",
+    "desc": "《JAVASCRIPT语言精髓与编程实践》讲述了JavaScript的语言实现与扩展，主要包括以下三个方面的内容：（1）动态、函数式语言，以及其它语言特性在JavaScript的表现与应用；（2）如何用动态函数式语言的特性来扩展JavaScript的语言特性与框架；（3）如何将JavaScript引擎整合到其它高级语言的开发过程中。"
+  },
+  {
+    "title": "JavaScript DOM高级程序设计",
+    "author": "Jeffrey Sambells、Aaron Gustafson ",
+    "press": " 人民邮电出版社 ",
+    "price": " ￥59.00元",
+    "desc": "本书注重理论与实践的结合，全面讲述高级的DOM 脚本编程。全书分为3 个部分：第一部分“深入理解DOM 脚本编程”，涉及W3C DOM 规范的各方面，包括非标准的浏览器支持和不支持的内容；第二部分“浏览器外部通信”，以Ajax 和客户端—服务器端通信为主题；第三部分“部分高级脚本编程资源”，集中介绍了一批第三方脚本编程资源，包括库和API。同时，每部分的最后一章都为案例研究，将学到的内容应用于实践。通过学习全书内容，读者将能构建起属于自己的DOM 实用方法库。\\n本书适合有Web 开发和设计经验的读者阅读和参考。"
+  },
+  {
+    "title": "JavaScript启示录",
+    "author": "Cody Lindley ",
+    "press": " 人民邮电出版社 ",
+    "price": " ￥35.00元",
+    "desc": "javascript是web开发人员必须掌握的一门编程语言，但javascript语言及其相关技术正在变得越来越复杂。如何掌握javascript的基本概念和核心技术，往往让初学者和javascript新手感到束手无策。\\n《javascript启示录》力图在有限的篇幅内，通过考察原生javascript对象和所支持的细微差别，来给读者展现准确的javascript世界观，涉及对象、属性、复杂值、原始值、作用域、继承、this关键字、head对象等重要概念。本书帮助读者厘清这些概念，进而掌握应用它们的技术和技巧。\\n《javascript启示录》适合希望通过深入了解javascript对象来巩固对语言理解的高级初学者或中级javascript开发人员阅读，也适合准备研究javascript幕后知识的javascript库使用老手参考。"
+  },
+  {
+    "title": "JavaScript面向对象编程指南",
+    "author": "斯托扬 ",
+    "press": " 人民邮电出版社 ",
+    "price": " ￥59.00元",
+    "desc": "《JavaScript面向对象编程指南》内容包括：JavaScript作为一门浏览器语言的核心思想；面向对象编程的基础知识及其在JavaScript中的运用；数据类型、操作符以及流程控制语句；函数、闭包、对象和原型等概念，以代码重用为目的的继承模式；BOM、DOM、浏览器事件、AJAX和JSON；如何实现JavaScript中缺失的面向对象特性，如对象的私有成员与私有方法；如何应用适当的编程模式，发挥JavaScript语言特有的优势；如何应用设计模式解决常见问题等。\\n《JavaScript面向对象编程指南》着重介绍JavaScript在面向对象方面的特性，展示如何构建强健的、可维护的、功能强大的应用程序及程序库。"
+  },
+  {
+    "title": "JavaScript编程实战",
+    "author": "[美] Jon Raasch ",
+    "press": " 人民邮电出版社 ",
+    "price": " ￥59.00",
+    "desc": "JavaScript的快速演进带来了更新更快的JavaScript虚拟机以及各种框架，不仅使得它在服务器端的Web程序开发中日益普及，同时也推动了适用于移动设备的富JavaScript程序的开发。\\n本书由浅入深，语言活泼易懂，旨在帮助读者轻松构建实际应用。而且，书中对于JavaScript秘密特性的深入挖掘，会重塑你原本精湛的技能结构，让你构建出巧妙复杂的应用。\\n本书特色如下。\\n广：涵盖内容广泛，包括如何构建backbone应用、JavaScript模板的重要性、Node.js和MongoDB、使用WebGL/Three.js库渲染3D图形，以及如何将桌面应用转换为专门的移动端应用，等等。\\n深：对一些JavaScript相关的高级主题进行深入解析，这些主题是你在其他JS开发的书中通常难以找到的。\\n全：除了详细讲解的内容，每章最后还提供了丰富的补充资源，以供读者学习参考。\\n本书所有代码均可在以下地址下载：www.wiley.com/go/ptl/javascriptprogramming。\\n无论你是深谙JavaScript技术的资深开发人员，还是具有HTML和CSS经验的Web开发者或设计师，都能从本书中学到必备的技能，构建脱颖而出的杀手级应用。"
+  },
+  {
+    "title": "JavaScript 函数式编程",
+    "author": "[美] Michael Fogus ",
+    "press": " 人民邮电出版社 ",
+    "price": " ￥49",
+    "desc": "JavaScript 是近年来非常受瞩目的一门编程语言，它既支持面向对象编程，也支持函数式编程。本书专门介绍JavaScript函数式编程的特性。\\n全书共9章，分别介绍了JavaScript函数式编程、一等函数与Applicative编程、变量的作用域和闭包、高阶函数、由函数构建函数、递归、纯度和不变性以及更改政策、基于流的编程、类编程。除此之外，附录中还介绍了更多函数式JavaScript。\\n本书内容全面，示例丰富，适合想要了解函数式编程的JavaScript程序员和学习JavaScript的函数式程序员阅读。"
+  },
+  {
+    "title": "JavaScript核心概念及实践",
+    "author": "邱俊涛 ",
+    "press": " 人民邮电出版社 ",
+    "price": " ￥49.00元",
+    "desc": "本书不仅帮助读者迅速掌握JavaScript基础知识和核心技术，而且通过实例讲解如何将这些知识和技术理解应用到实际工作中，提升编程能力，以简洁、优美的代码开发出功能强大且更易于维护和扩展的应用程序。\\n全书共16章和两个附录，可以分为两个部分。第一部分包括第1章到第7章，侧重介绍JavaScript语言的核心概念，为读者学习后续内容打下牢固基础；这部分介绍了JavaScript的对象、函数、数组、正则表达式、闭包等主题，以及相关的重要知识点。     第二部分包括第8章到第16章，着重讨论了JavaScript支持的编程范式、核心概念的延伸、JavaScript的前端开发框架、测试框架、JavaScript引擎、JavaScript在Java，C、C++等应用中的使用，以及服务器端的JavaScript应用。这部分内容更注重实例，帮助读者将核心概念引用到实际工作中。附录A介绍了一些常用JavaScript技巧；附录B简单介绍了jQuery并给出了一个应用实例。\\n本书可以供JavaScript初学者阅读，以快速学习和掌握这门语言的核心内容：对于有一定经验的JavaScript程序员，则可以通过本书加深和拓展对JavaScript的认识，提升应用开发能力。"
+  },
+  {
+    "title": "JavaScript异步编程",
+    "author": "Trevor Burnham ",
+    "press": " 人民邮电出版社 ",
+    "price": " ￥32.00元",
+    "desc": "《JavaScript异步编程：设计快速响应的网络应用》讲述基本的异步处理技巧，包括PubSub、事件模式、Promises等，通过这些技巧，可以更好地应对大型Web应用程序的复杂性，交付快速响应的代码。理解了Javascript的异步模式可以让读者写出结构更合理、性能更出色、维护更方便的Javascript程序。\\n《JavaScript异步编程：设计快速响应的网络应用》适合JavaScript开发人员阅读。"
+  },
+  {
+    "title": "JAVASCRIPT权威指南(第四版)",
+    "author": "[美]DavidFlanagan ",
+    "press": " 机械工业出版社 ",
+    "price": " ￥99.00",
+    "desc": "《JavaScript权威指南》全面介绍了JavaScript语言的核心，以及Web浏览器中实现的遗留和标准的DOM。它运用了一些复杂的例子，说明如何处理验证表单数据、使用cookie、创建可移植的DHTML动画等常见任务。本书还包括详细的参考手册，涵盖了JavaScript的核心API、遗留的客户端API和W3C标准DOM API，记述了这些API中的每一个JavaScript对象、方法、性质、构造函数、常量和事件处理程序。"
+  },
+  {
+    "title": "JavaScript编程精解",
+    "author": "Marijn Haverbeke ",
+    "press": " 机械工业出版社华章公司 ",
+    "price": " ￥49.00元",
+    "desc": "如果你只想阅读一本关于JavaScript的图书，那么本书应该是你的首选。本书由世界级JavaScript程序员撰写，JavaScript之父和多位JavaScript专家鼎力推荐。本书适合作为系统学习JavaScript的参考书，它在写作思路上几乎与现有的所有同类书都不同，打破常规，将编程原理与运用规则完美地结合在一起，而且将所有知识点与一个又一个经典的编程故事融合在一起，读者可以在轻松的游戏式开发中学会JavaScript程序设计，趣味性十足，可操作性极强。\\n全书一共12章：第1~3章介绍了JavaScript的基本语法，旨在帮助读者编写出正确的JavaScript程序，包含数字、算术、字符串、变量、程序结构、控制流程、类型、函数、对象和数组等最基础和最核心的内容；第4~7章讲解了JavaScript编程中的高级技术，目的是帮助读者编写更复杂的JavaScript程序，主要涉及错误处理、函数式编程、面向对象编程、模块化等重要内容；第8~12章则将重心转移到JavaScript环境中可用的工具上，分别详细讲解了正则表达式、与Web编程相关的知识、文档对象模型、浏览器事件和HTTP请求等。"
+  },
+  {
+    "title": "JavaScript快速开发工具箱",
+    "author": "Robin Nixon ",
+    "press": " 清华大学出版社 ",
+    "price": " ￥59.00元",
+    "desc": "《JavaScript快速开发工具箱:轻松解决JavaScript日常编程问题的100个插件工具》通透讲解100个现成的JavaScript插件，引导您使用这些利器得心应手地创建动态Web内容。《JavaScript快速开发工具箱:轻松解决JavaScript日常编程问题的100个插件工具》开篇讲解JavaScript、CSS和DOM，此后每章都列举一个完整示例，指导您将特定效果快速应用于网页。使用这些插件，您只需调用一个函数就能完成诸多复杂任务，从而收到事半功倍的神奇效果。"
+  },
+  {
+    "title": "JavaScript设计模式",
+    "author": "Ross Harmes、Dustin Diaz ",
+    "press": " 人民邮电出版社 ",
+    "price": " ￥45.00元",
+    "desc": "本书共有两部分。第一部分给出了实现具体设计模式所需要的面向对象特性的基础知识，主要包括接口、封装和信息隐藏、继承、单体模式等内容。第二部分则专注于各种具体的设计模式及其在JavaScript语言中的应用，主要介绍了工厂模式、桥接模式、组合模式、门面模式等几种常见的模式。为了让每一章中的示例都尽可能地贴近实际应用，书中同时列举了一些JavaScript 程序员最常见的任务，然后运用设计模式使其解决方案变得更模块化、更高效并且更易维护，其中较为理论化的例子则用于阐明某些要点。.\\n本书适合各层次的Web 前端开发人员阅读和参考，也适合有C++/Java/C# 背景的服务器端程序员学习。.."
+  },
+  {
+    "title": "JavaScript设计模式",
+    "author": "张容铭 ",
+    "press": " 人民邮电出版社 ",
+    "price": " ￥59.00",
+    "desc": "《JavaScript设计模式》共分六篇四十章，首先讨论了几种函数的编写方式，体会JavaScript在编程中的灵活性；然后讲解了面向对象编程的知识，其中讨论了类的创建、数据的封装以及类之间的继承；最后探讨了各种模式的技术，如简单工厂模式，包括工厂方法模式、抽象工厂模式、建造者模式、原型模式、单例模式，以及外观模式，包括适配器模式。本书还讲解了几种适配器、代理模式、装饰者模式和MVC模式，讨论了如何实现对数据、视图、控制器的分离。在讲解MVP模式时，讨论了如何解决数据与视图之间的耦合，并实现了一个模板生成器；讲解MVVM模式时，讨论了双向绑定对MVC的模式演化。本书几乎包含了关于JavaScript设计模式的全部知识，是进行JavaScript高效编程必备的学习手册。\\n《JavaScript设计模式》适合JavaScript初学者、前端设计者、JavaScript程序员学习，也可以作为大专院校相关专业师生的学习用书，以及培训学校的教材。"
+  },
+  {
+    "title": "JavaScript王者归来",
+    "author": "月影 ",
+    "press": " 清华大学出版社 ",
+    "price": " ￥86.00元",
+    "desc": "你手中的这本《JavaScript王者归来》不仅是一本传播知识的书，更是一本求道的书。\\n本书分为五个部分循序渐进地与读者讨论了JavaScript的方方面面，从简单的语言基础到丰富的实际应用再到深入剖析语言本质的高级话题，字里行间包含着作者多年工作中对JavaScript实践乃至程序设计思想的深入思考和总结。\\n本书揭开了JavaScript的面纱，绕过误解和虚幻的表象，引领你探索程序王国的奥妙。它既是一本为初学者准备的入门级教程，又是一本探寻程序设计思想本源的“魔法典籍”，也是一本Web开发工程师们需要的案头参考书。\\n本书是你进入脚本王国的一把钥匙，引导你领略脚本魔法的神奇魅力。它还是一本着眼于未来改变互联网的启蒙读物，在它的引领下，你将在互联网的世界里获得你所希望得到的知识、智慧、成就和快乐。\\n专题页： http://labs.aoao.org.cn/akira/"
+  },
+  {
+    "title": "JavaScript & DHTML Cookbook中文版（第二版）",
+    "author": "Danny Goodman ",
+    "press": " 电子工业出版社 ",
+    "price": " ￥98.00元",
+    "desc": "本书主要介绍了运用JavaScript搭配DHTML技术进行Web开发和Web设计的原则和技巧。全书内容以条目形式罗列，覆盖了在Web开发和Web设计中综合运用JavaScript和DHTML技术实现各种实用功能的技术和技巧，示例丰富、实用性强、便于查阅。本书相对于第1版，对Web 2.0和Ajax技术架构进行了全面更新，增加了对Web 2.0应用开发和Ajax技术的深入阐述和精彩的技巧讲解。\\n本书适合Web开发人员、Web设计人员、网站架构师阅读和参考。"
+  },
+  {
+    "title": "JavaScript实战手册",
+    "author": "David Sawyer McFarland ",
+    "press": " 机械工业出版社 ",
+    "price": " ￥89.00元",
+    "desc": "在《JavaScript实战手册》中，畅销书作者David McFarland教你如何以高级的方式使用JavaScript，即便你只有很少或者没有编程经验。一旦掌握了这种语言的结构和术语，你将学习如何使用高级的JavaScript工具来快速为站点添加有用的交互，而不是一切从头开始编写脚本。和其他的Missing Manuals图书不同，《JavaScript实战手册》清楚、精炼，手把手地讲解。\\n现代Web站点需要发布的东西远不仅仅是文本。访问者期待智能化的表单、导航标签页、弹出式帮助屏幕，以及交互式的照片集。《JavaScript实战手册》介绍用漂亮的样式发布这些元素所需的所有JavaScript知识，即便你不是程序设计高手，也可以轻松地阅读和学习《JavaScript实战手册》。\\n《JavaScript实战手册》中的重要内容包括：\\n直接从构建结构良好的JavaScript程序开始，这些程序操作HTML和CSS Web页面。\\n定制代码——《JavaScript实战手册》按部就班的教程允许只添加Web页面需要的功能。\\n通过学习《JavaScript实战手册》中的生动在线示例，你可以开发自己的Web站点的解决方案。\\n避免常见的错误，明确在此过程中怎么做。\\n通过jQurey库预先编写好的大量代码来节约时间和精力。\\n使用简单的Ajax编程，集成来自Web服务器或Google Maps的数据。"
+  },
+  {
+    "title": "JavaScript经典实例",
+    "author": "Shelley Powers ",
+    "press": " 中国电力出版社 ",
+    "price": " ￥78.00元",
+    "desc": "《JavaScript经典实例》各节中的完整代码解决了常见的编程问题，并且给出了在任何浏览器中构建Web应用程序的技术。只需要将这些代码示例复制并粘贴到你自己的项目中就行了，可以快速完成工作，并且在此过程中学习JavaScript的很多知识。你还将学习如何利用ECMAScript5和HTML5中的最新功能，包括新的跨域挂件通信技术、HTML5的video和audio元素，以及绘制画布。《JavaScript经典实例》中一些章节介绍了如何将这些技术与JavaScript一起使用，构建高品质的应用程序界面。"
+  },
+  {
+    "title": "JavaScript核心技术",
+    "author": "Shelley Powers ",
+    "press": " 机械工业出版社 ",
+    "price": " ￥45.00",
+    "desc": "Ajax是当今Web开发领域最流行的词汇。而JavaScript与CSS、XML和DOM几种老技术，加上XMLHttpRequest就构成了Ajax的四大基石。对于JavaScript，一些更资深的同事告诉我的感觉是失望。面对不同的浏览器和浏览器的不同版本，没有优秀的调试开发工具，JavaScript成了软件开发的泥潭。.\\n而本书的出版则给我们增加了一丝解决这些问题的信心。\\n它从最简单的地方入手，不仅讲述了JavaScript的基础知识，还讲述了JavsScript如何操作CSS、DOM等Ajax基础技术。而关于跨浏览器兼容问题的解决，则贯穿了本书的始终。本书对于各种浏览器、浏览器版本、JavaScript版本、DOM版本的介绍，有助于我们理解所遇到的各种新旧代码，使我们能够对这些代码做出正确的取舍。..\\n本书还提供了一些使用JavaScript的最佳实践。无论是新手还是老手，这些如何正确使用JavaScript的经验都能帮助他们养成良好的编程习惯。本书还介绍了一些调试和开发JavaScript的工具，这些工具无疑能够提高我们的开发效率。\\n本书最后对于Ajax和几个流行的JavaScript库的介绍，无疑会开阔我们在JavaScript使用上的思路。\\n本书是一本真正意义上的“新书”，不仅介绍了最新的JavaScript知识和方向，还完全覆盖了当今Web开发中关于JavaScript的所有重要话题，它使用了大量实例代码，图文并茂地讲解了使用JavaScript的各个层次和领域的内容。它不是一本参考手册，但却是一本值得拥有的教程。..."
+  },
+  {
+    "title": "JavaScript快速全栈开发",
+    "author": "[美] Azat Mardanov ",
+    "press": " 人民邮电出版社 ",
+    "price": " ￥49.00元",
+    "desc": "本书涵盖JavaScript快速开发的多项前沿技术，是极其少见的前后端技术集大成之作。本书所涉技术包括Node.js、MongoDB、Twitter Bootstrap、LESS、jQuery、Parse.com、Heroku等，分三部分介绍如何用这些技术快速构建软件原型。第一部分是基础知识，让大家真正认识前后端及敏捷开发，并学会搭建本地及云环境。第二部分与第三部分分别介绍如何构建前端原型和后端原型。作者以前端组件开篇，通过为一个示例聊天应用Chat打造多个版本（Web/移动），将前端和后端结合在一起并给出应用部署方式。"
+  },
+  {
+    "title": "JavaScript实战",
+    "author": "Frank W. Zammetti ",
+    "press": " 人民邮电出版社 ",
+    "price": " ￥59.00元",
+    "desc": "随着Ajax的兴起，JavaScript迅速地从改进网站的配角晋升为开发专业级高质量应用的主角，成为了Web开发中不可缺少的一员。\\n本书主要通过10个具体项目，包括构建可扩展的JavaScript库、使用GUI窗口小部件框架、开发支持拖放的购物车和编写JavaScript游戏等，讲述JavaScript最佳实践、Ajax技术，以及一些流行的JavaScript库，如Rico、Dojo、script.aculo.us、 YUI等。读者在理解的基础上可以方便地将所学知识应用到自己的项目中。书中项目也非常实用，读者可以直接参考利用。"
+  },
+  {
+    "title": "JavaScript学习指南",
+    "author": "鲍尔斯 ",
+    "press": " 人民邮电出版社 ",
+    "price": " ￥45.00元",
+    "desc": "《JavaScript学习指南(第2版)》系统地介绍了JavaScript的基本语法、基本对象、调试工具与排错技术、事件处理机制、浏览器对象模型/文档对象模型（BOM/DOM）等方面的知识，并通过一个复杂的示例深入探讨了Ajax应用。《JavaScript学习指南(第2版)》提供了许多简单易懂、主题鲜明的示例，介绍了大量最佳实践和良好编程习惯，对提高代码可读性、可维护性均有很高的价值，并且对很多跨浏览器兼容问题进行了详细说明，追踪了新规范的发展。\\n《JavaScript学习指南(第2版)》适合于希望通过JavaScript为自己的网页/网站添加活力的读者，不管你是否有编程经验，通过阅读《JavaScript学习指南(第2版)》都能够很快地掌握这一技术。在阅读《JavaScript学习指南(第2版)》之前，最好对CSS、HTML/XHTML有所了解。   点击链接进入新版 ：\\nJavaScript学习指南(第2版修订版)"
+  },
+  {
+    "title": "JavaScript基础教程",
+    "author": "Tom Negrino、Dori Smith ",
+    "press": " 人民邮电出版社 ",
+    "price": " ￥45.00元",
+    "desc": "《JavaScript基础教程》(第6版)循序渐进地讲述了JavaScript 及相关的CSS、DOM与Ajax 等技术。书中从JavaScript 语言基础开始，分别讨论了图像、框架、浏览器窗口、表单、正则表达式、用户事件和cookie，还有两章讲述了Ajax 基础。《JavaScript基础教程》(第6版)不仅有对于基础知识和使用方法的介绍，也包含了对JavaScript 应用示例的深入探讨。"
+  },
+  {
+    "title": "JavaScript & jQuery",
+    "author": "David Sawyer McFarland ",
+    "press": " O Reilly ",
+    "price": " ￥USD 39.99",
+    "desc": "You don't need programming experience to add interactive and visual effects to your web pages with JavaScript. This Missing Manual shows you how the jQuery library makes JavaScript programming fun, easy, and accessible to web designers at every level of experience. You'll quickly learn how to use jQuery to help your site run smoothly and look great across multiple web browsers. jQuery is the most popular JavaScript library, used on more than 30% of existing websites -- a strong testament to both its power and ease of use. In this entertaining, jargon-free book, bestselling author David McFarland teaches you how to create dynamic web pages without typing a lot of code. Why wait? Order a copy of JavaScript and jQuery: The Missing Manual today. * Use jQuery to simplify complex JavaScript tasks * Get extensive tutorials for various JavaScript techniques * Learn jQuery from the author of popular Missing Manuals on Dreamweaver and CSS * Take your web development skills to the next level with little or no programming experience"
+  },
+  {
+    "title": "JavaScript精粹",
+    "author": "[英]爱德华兹 ",
+    "press": " 人民邮电出版社 ",
+    "price": " ￥49.00元",
+    "desc": "《JavaScript 精粹》主要介绍JavaScript应用中一些常见的问题及其解决方法，从最基础的数字、字符串、数组到进阶的DOM、表单验证、cookie，再到较为高级的Ajax，书中均有涉及。《JavaScript 精粹》覆盖现在非常流行和通用的技术，提出很多出现频率较高的Web开发常见问题，并提供了大量的技巧和解决方案，具有很强的实用性和通用性，书中的代码也具有很强的兼容性。《JavaScript 精粹》还介绍了一些面向对象编程内容，这部分内容可以帮助用户以更高的角度来看待自己的设计，以提高代码的质量和可维护性。最为难得的是，由于具有丰富的业界实践经验，作者在《JavaScript 精粹》中不仅仅提出了对各种问题的解决方法，还展现了自己的思考方法和一些良好的程序设计习惯，与具体的细节性知识相比，这些无疑更加具有价值。\\n《JavaScript 精粹》适合参与创建网站以及开发Web应用程序的工程技术人员和管理人员阅读参考。"
+  },
+  {
+    "title": "JavaScript权威指南",
+    "author": "[美]DavidFlanagan ",
+    "press": " 中国电力出版社 ",
+    "price": " ￥85.00",
+    "desc": "本书由畅销书《Java in a Nutshell》的作者David Flanagan撰写，是公认的权威JavaScript程序员指南和参考手册。JavaScript是一种功能强大、面向对象、可以直接嵌入HTML页面的脚本语言。JavaScript可以创建动态、交互式、基干Web的应用程序，而且所创建的应用程序可以在Web浏览器中完整地运行——因而，JavaScript是开发DHTML内容的最佳之"
+  },
+  {
+    "title": "JavaScript Enlightenment",
+    "author": "Cody Lindley ",
+    "press": " O'Reilly Media ",
+    "price": " ￥USD 14.99",
+    "desc": "This short and digestible summary of JavaScript 1.5 (ECMA-262, Edition 3 specification) focuses on the nature of objects in JavaScript, giving you an accurate JavaScript worldview through an examination of native JavaScript objects and supporting nuances: complex values, primitive values, scope, inheritance, the head object, and more. If you're a designer or developer who has only used JavaScript under the mantle of libraries - such as jQuery and Prototype - the material in this book will help transform you from a JavaScript library user into a JavaScript developer."
+  },
+  {
+    "title": "JavaScript专家编程",
+    "author": "Mark Daggett ",
+    "press": " 人民邮电出版社 ",
+    "price": " ￥49.00",
+    "desc": "JavaScript是一种脚本语言，已广泛用于Web应用开发。本书就是一本引导读者深入学习JavaScript，并能成为JavaScript专家的书。\\n全书共10章，分别介绍了对象和原型、函数、闭包、术语、异步编程、JavaScript的IRL、编程风格、工作流程、代码质量、提高可测试性等内容。通过一系列内容和示例的讲解，本书进一步剖析了JavaScript的内部机制，为读者呈现更加全面的JavaScript。\\n本书适合有一定经验的JavaScript开发人员阅读，能够帮助读者更好地认识和运用JavaScript语言。"
+  },
+  {
+    "title": "JavaScript征途",
+    "author": "朱印宏 ",
+    "press": " 电子工业出版社 ",
+    "price": " ￥89.00元",
+    "desc": "《JavaScript征途》是一本学习JavaScript语言的权威书籍，在遵循语言学习的特殊规律基础上精心选材，力争做到统筹、有序，在结构上体现系统性和完整性。同时还重点挖掘JavaScript基于对象的开发精髓及函数式编程两个技术核心。《JavaScript征途》内容全面，由浅入深，包括6篇21章，主要内容包括：JavaScript语言的基本特性，开发简单的JavaScript程序，JavaScript语法体系，数据、数据类型和变量，运算符和表达式，语句和结构，JavaScript函数， JavaScript对象，数组，字符串，使用正则表达式操纵字符串，客户端，控制文档结构的模型，JavaScript事件驱动模型，CSS，Cookie，XML和JSON，Ajax，深入JavaScript面向对象编程，深入JavaScript函数式编程，深入JavaScript动态化编程等。\\n《JavaScript征途》适用于具有一定程序开发基础、准备学习JavaScript语言或希望提高JavaScript语言技巧的读者，还可作为相关培训班的教材。"
+  },
+  {
+    "title": "JavaScript修炼之道",
+    "author": "波顿纽威 ",
+    "press": " 人民邮电 ",
+    "price": " ￥29.00元",
+    "desc": "《JavaScript修炼之道》是JavaScript的实战秘籍。作者将自己多年的编程经验融入其中，不仅可以作为学习之用，更是日常JavaScript开发中不可多得的参考手册，使读者少走很多弯路。《JavaScript修炼之道》的内容涵盖了当今流行的JavaScript库的运行机制，也提供了许多应用案例。《JavaScript修炼之道》针对各任务采取对页式编排，在对各任务的讲解中，左页解释了任务的实现原理，而右页则举出了该任务的代码片段以及可供对照参考的相关任务，便于读者阅读和理解。《JavaScript修炼之道》的读者既包括JavaScript编程的新手，也包括已有不少Web应用编程经验的开发者。"
+  },
+  {
+    "title": "JavaScript网页开发<体验式学习教程>(附光盘)",
+    "author": "张孝祥、张孝祥、张红梅、张红梅 ",
+    "press": " 清华大学 ",
+    "price": " ￥28.00元",
+    "desc": "《JavaScript网页开发》结合大量应用实例，详细地讲解了HTML语言、CSS、JavaScript语法、DOM对象模型编程、正则表达式，并介绍了网页脚本编程的其他相关技术和知识，例如，VBScript、NetScape控件、ActiveX控件、Java Applet小程序等。《JavaScript网页开发》力求在不减少知识信息量的情况下，能够把书写薄，同时又能把问题说透，让读者能够迅速上手，并尽最大可能地扩展读者的知识面，启发读者自我思考和学习的能力，让读者感受到技术学习所带来的快乐。"
+  },
+  {
+    "title": "JavaScript RIA开发实战",
+    "author": "(英)Dennis Odell ",
+    "press": " 清华大学出版社 ",
+    "price": " ￥48.00元",
+    "desc": "本书介绍如何采用最合理的方式为RIA编写可靠的、易于维护的HTML、CSS和JavaScript代码，以及如何使用Ajax技术在后台实现浏览器与Web服务器的动态通信。本书将介绍您在构建Web应用程序时可能遇到的性能限制，以及如何以最佳的方式克服这些限制。此外，本书提供的提示可以使用户界面响应更加灵敏。\\n本书也将介绍如何通过添加使用自定义字体的印刷标题、多媒体回放组件、自定义窗体控件和动态绘图功能改进RIA的用户界面。此外还将演示如何在服务器连接中断时继续运行Web应用程序，如何使用Ajax读取存储在二进制文件中的隐藏数据，以及如何确保JavaScript Web应用程序中最高级别的可访问性。"
+  },
+  {
+    "title": "JavaScript & DHTML Cookbook",
+    "author": "Danny Goodman ",
+    "press": " O'Reilly Media, Inc. ",
+    "price": " ￥USD 39.95",
+    "desc": "On numerous online forums for JavaScript and DHTML, the majority of questions begin with \"How do I...?\"  This new Cookbook provides the answers.  After reading thousands of forum threads over the years, author and scripting pioneer Danny Goodman has compiled a list of problems that frequently vex scripters of various experience levels.  He has now applied state-of-the-art ECMA and W3C DOM standards and used best practices to create this extensive collection of practical recipes that can bring your web pages to life.     The JavaScript & DHTML Cookbook is all about adding value to the content of a web page.  The book focuses on practical and sensible applications of scripting, rather than flying images and gratuitous color changes.  For every problem Goodman addresses, there's a solution or \"recipe\"--a focused piece of code that web developers can insert directly into their applications.  Yet, rather than just cut-and-paste code, you also get explanations of how and why the code works, so you can learn to adapt the problem-solving techniques to your designs.     The recipes range from simple tasks, such as manipulating strings and validating dates in JavaScript, to entire libraries that demonstrate complex tasks, such as cross-browser positioning of HTML elements and sorting tables.  This book contains over 150 recipes on the following topics:\\nWorking with interactive forms and style sheets\\nPresenting user-friendly page navigation\\nCreating dynamic content\\nProducing visual effects for stationary content\\nPositioning HTML elements\\nManaging browser windows and multiple frames  This book is the ideal companion to O'Reilly's JavaScript: The Definitive Guide and Dynamic HTML: The Definitive Reference.  If you own either of these books, the JavaScript & DHTML Cookbook is a must."
+  },
+  {
+    "title": "JavaScript凌厉开发",
+    "author": "张鑫  黄灯桥、杨彦强 ",
+    "press": " 清华大学出版社 ",
+    "price": " ￥49.00元",
+    "desc": "本书详细介绍Ext JS框架体系结构，以及利用HTML/CSS/JavaScript进行前端设计的方法和技巧。作者为Ext中文站站长领衔的三个国内Ext JS先锋，在开发思维和开发经验上有着无可争议的功力。\\n本书包含的内容有Ext.Element.*、事件Observable、Ext组件+MVC原理、Grid/Form/Tree/ComboBox、Ajax缓存Store等，并照顾JavaScript新手，穿插部分JavaScript基础知识。\\n本书附带的实例丰富，包括散布各知识点的单独可运行实例、大型UI控件、ASP.NET新闻发布器、Java DWR整合方案、最新通信协议Ext.Direct、Ajax仿资源管理器等。\\n本书附带光盘中的教学视频时长270分钟，包括从零开始学Ext、如何用Firebug调试、ext-base.js源码级讲解、实例操作演示和源码评点、可视化IDE编程、优化工具的使用等。并附带完整的Ext 3.1中文文档。\\n本书适合广大的Web开发人员阅读。\\n目录\\n第1章 开篇 1\\n1.1 网络开发浪潮 2\\n1.2 基于JavaScript的RIA开发观念 3\\n1.3 风靡世界的Ext 3\\n第2章 Ext起步 7\\n2.1 获取Ext的方法 8\\n2.2 Ext运行环境 8\\n2.3 如何兼容其他JavaScript库 9\\n2.4 如何学好Ext框架 11\\n第3章 Ext基础 13\\n3.1 构成界面的元素 14\\n3.1.1 获取页面元素 14\\n3.1.2 Ext.get()/Ext.fly()区别 16\\n3.1.3 获取周边元素 17\\n3.1.4 元素的增/删/改/查 18\\n3.2 元素的高级查询 22\\n3.2.1 DomQuery详解 22\\n3.2.2 Composite元素集合 25\\n3.2.3 CSS选择符详解 27\\n3.2.4 ID/Class拾遗 30\\n.3.3 控制元素 30\\n3.3.1 页面显示方法 30\\n3.3.2 动画Fx集锦 32\\n3.3.3 元素小结 33\\n3.4 应用模板 34\\n3.4.1 Ext.Template 35\\n3.4.2 Ext.XTemplate 37\\n3.5 例子：制作一个对话框 39\\n3.5.1 afterRender事件 41\\n3.5.2 继承用法 43\\n第4章 Ext事件 45\\n4.1 浏览器事件浅析 46\\n4.1.1 内联式登记(inline) 46\\n4.1.2 传统式登记 47\\n4.1.3 IE式登记 47\\n4.1.4 DOM Level 2式登记 48\\n4.1.5 事件对象 50\\n4.2 事件与函数 50\\n4.2.1 变量的声明 50\\n4.2.2 嵌套的函数 51\\n4.2.3 Function.call()/apply() 52\\n4.2.4 深入Event Handler 54\\n4.2.5 Ext的事件 59\\n4.3 高级事件及其控制 62\\n4.3.1 基础事件与高级组件事件 62\\n4.3.2 高级组件事件详解 64\\n4.3.3 键盘上的按键事件 69\\n4.4 例子：制作一个小Widget 71\\n4.4.1 定义UI/CSS 72\\n4.4.2 继承Observable(重点) 74\\n4.4.3 配置项参数 76\\n第5章 创建图形界面 79\\n5.1 界面架构及原理 80\\n5.1.1 组件的生存周期 81\\n5.1.2 模板方法简介 87\\n5.1.3 对象模型之Component 92\\n5.1.4 对象模型之Container 92\\n5.1.5 对象模型之Panel 93\\n5.1.6 对象模型之Viewport 94\\n5.1.7 小结 95\\n5.2 组件的高级应用 95\\n5.2.1 组件的延时渲染 95\\n5.2.2 组件管理器 96\\n5.2.3 避免相同id的冲突 97\\n5.2.4 组件之间的通信 98\\n5.2.5 关于插件的应用 100\\n5.3 容器的布局 101\\n5.3.1 布局简介 101\\n5.3.2 使用AnchorLayout 104\\n5.3.3 使用FormLayout 106\\n5.3.4 使用ColumnLayout 107\\n5.3.5 调试ColumnLayout 113\\n5.4 拖放操作 115\\n5.4.1 入门：一个小游戏 115\\n5.4.2 简单的拖放 116\\n5.4.3 自定义拖放详解 118\\n5.4.4 群体式拖放模式 119\\n第6章 展示数据 123\\n6.1 如何产生组件读取的数据 124\\n6.1.1 org.json(Struts篇) 124\\n6.1.2 LitJSON(.NET篇) 128\\n6.2 表格组件Grid 135\\n6.2.1 Grid入门 135\\n6.2.2 Store结构 144\\n6.2.3 分页、查询、排序 149\\n6.2.4 列模型与单元格 155\\n6.2.5 多层表头 161\\n6.2.6 使用拖放行为 163\\n6.2.7 PropertyGrid扩展简介 169\\n6.2.8 使用DataView组件 171\\n6.3 表单组件Form 179\\n6.3.1 表单提交 179\\n6.3.2 表单验证及其控制 186\\n6.3.3 表单/数据绑定 193\\n6.3.4　插件/扩展两则 196\\n6.3.5 集成TinyMCE Editor\\n编辑器 198\\n6.4 列表组件ComboBox 201\\n6.4.1 基本使用方法 201\\n6.4.2 调整Combobox内的元素 206\\n6.4.3 实现Combobox的联动 211\\n6.4.4 TreeComboBox简介 214\\n6.5 树状组件Tree 216\\n6.5.1 Tree入门 216\\n6.5.2 如何定义数据源 221\\n6.5.3 改变节点图标 224\\n6.5.4 Tree的拖放 226\\n6.5.5 调试动态树 229\\n第7章 数据驱动 237\\n7.1 XML/JSON数据格式比较 238\\n7.2 容器类MixedCollection 239\\n7.2.1 构造器以及属性 240\\n7.2.2 集合存储操作方法(一) 241\\n7.2.3 集合存储操作方法(二) 245\\n7.2.4 集合查询遍历方法 246\\n7.3 数据存储基本单元Record与\\nDataField 248\\n7.3.1 准备基础数据 248\\n7.3.2 DataField详解 250\\n7.3.3 Record详解(一) 250\\n7.3.4 Record详解(二) 252\\n7.4 数据存储Store 255\\n7.4.1 数据的载入 255\\n7.4.2 远程数据的载入 259\\n7.4.3 数据的添加 263\\n7.4.4 取得记录信息 269\\n7.4.5 排序 273\\n7.4.6 事务模式 274\\n7.4.7 查找 276\\n7.5 数据代理DataProxy 277\\n7.5.1 Ext.data.DataProxy 277\\n7.5.2 Ext.data.MemoryProxy 278\\n7.5.3 Ext.data.HttpProxy 279\\n7.5.4 Ext.data.ScriptTagProxy 280\\n7.6 数据读取器DataReader 282\\n7.6.1 Ext.data.DataReader 282\\n7.6.2 Ext.data.ArrayReader 282\\n7.6.3 Ext.data.JsonReader 284\\n7.6.4 Ext.data.XmlReader 286\\n7.7 Ext.ux.DWR + Spring 287\\n7.7.1 DwrProxy/DwrReader 288\\n7.7.2 整合Spring的例子 289\\n7.7.3 Web服务端配置 289\\n7.7.4 服务层接口 291\\n7.8 RESTful的支持 293\\n7.9 Ext.Direct 293\\n7.9.1 通迅新方式：Ext.Direct 293\\n7.9.2 配置器 294\\n7.9.3 API供应器 296\\n7.9.4 路由器 298\\n7.9.5 例子 300\\n7.9.6 小结 301\\n第8章 JavaScript高级应用 303\\n8.1 JavaScript闭包详解 304\\n8.1.1 闭包的概念 304\\n8.1.2 闭包成员的生命周期 305\\n8.1.3 引用而不是复制 306\\n8.1.4 闭包应用场景 307\\n8.2 JavaScript的继承 308\\n8.2.1 大杂烩JavaScript 308\\n8.2.2 定义类别 309\\n8.2.3 加入方法 310\\n8.2.4 基于类的继承 311\\n8.3 修改页面皮肤 315\\n8.3.1 从Ext.BLANK_IMAGE_URL\\n说起 315\\n8.3.2 实时换肤功能 317\\n8.3.3 样式精粹：CSS Sprites 318\\n8.3.4 九宫格方位与baseCls 320\\n8.4 处理i18n 322\\n8.4.1 国际化与本地化 322\\n8.4.2 多语言的Ext 323\\n第9章 大型UI控件 327\\n9.1 Edk简介 328\\n9.1.1 项目起步 328\\n9.1.2 顶层源码概览 331\\n9.1.3 数据通信机制Ext.Direct 333\\n9.2 如何复用Ext组件 338\\n9.2.1 “1+2”之一 339\\n9.2.2 “1+2”之二 341\\n9.2.3 “1+2”之三 343\\n9.2.4 小结 347\\n9.3 Edk.grid.* 348\\n9.3.1 浅谈行为模式 348\\n9.3.2 如何分配Action 349\\n9.3.3 如何扩展该模式 351\\n9.4 Edk. tree.* 351\\n9.4.1 如何设计分类的Tree 351\\n9.4.2 如何添加特定的节点 353\\n9.4.3 如何使得TreeNode可编辑 354\\n9.5 Edk.formPanel.* 354\\n9.6 Edk.attachment.* 356\\n第10章 新闻管理系统 359\\n10.1 简介 360\\n10.1.1 项目需求 360\\n10.1.2 面向.NET的架构 360\\n10.1.3 系统需要使用的资源 360\\n10.1.4 准备数据库表 361\\n10.1.5 设置配置文件 363\\n10.2 页面实作 365\\n10.2.1 登录页(index.html) 365\\n10.2.2 主页面(index.aspx) 370\\n10.2.3 用户管理页面(users.aspx) 372\\n10.2.4 新闻管理页面(news.aspx) 379\\n10.2.5 剩余的服务端任务 390"
+  },
+  {
+    "title": "JavaScript权威指南",
+    "author": "张亚飞 ",
+    "press": " 清华大学出版社 ",
+    "price": " ￥69.80元",
+    "desc": "《JavaScript权威指南:ECMAScript5+HTML5DOM+HTML5BOM》主要针对网页设计和开发初学者编写，现在学习javascript应该从最新标准ecmascript5开始，这是毋庸置疑的。对于有经验的工程师来说，如果想完整掌握最新的javascript进展，那么使用《JavaScript权威指南:ECMAScript5+HTML5DOM+HTML5BOM》是明智的选择。\\n《JavaScript权威指南:ECMAScript5+HTML5DOM+HTML5BOM》包含了javascript 开发的所有内容，包括ecmascript5、oop、原型链、html5bom、html5dom、coredom、styledom、eventdom、dhtml、xmlhttprequest、ajax、web workers、web storage、web sql database、cross document messaging、server-sent event、web sockets、activexobject、hta等。这些功能介绍都严格按照ecmascript5和html5标准的要求编写，并附有详细的范例，侧重于实战。书中提供了各种浏览器兼容性指南，以帮助用户深入理解。\\n另外，《JavaScript权威指南:ECMAScript5+HTML5DOM+HTML5BOM》修正了当前普遍存在的错误认识，有利于初学者的学习。\\n新的机遇已经到来，对于想尽快掌握javascript新技术的用户来说，《JavaScript权威指南:ECMAScript5+HTML5DOM+HTML5BOM》是最完整的教程，希望《JavaScript权威指南:ECMAScript5+HTML5DOM+HTML5BOM》能成为您学习道路上的领航者。"
+  },
+  {
+    "title": "JavaScript与JScript从入门到精通",
+    "author": "(美）James Jaworski著 ",
+    "press": " 电子工业出版社 ",
+    "price": " ￥60.00",
+    "desc": "JavaScript和JScript语言可以把HTML文档、用Java或AchveX编写的W组件及多媒体插入件集成起来，开发动态的、可响应各种用户输入的高级Web应用程序，也可以用于开发服务器中使用的Web应用程序。本书将介绍JavaScript和JScript编程的各方面知识。内容包括JavaScript的基础知识，预定义对象和方法，JavaScript应用程序的示例，Java、ActiveX和插入件通信，JavaScript样式单对Web文档的控制方式、IE对DHTML脚本的支持及利用等。本书还介绍了许多深层话题，如CGI的基础、服务器中CGI脚本与客户JavaScript脚本的接口方式、LiveWire数据库服务、Netscape服务器中JavaScript应用程序的生成、Microsoft服务器脚本的编写、活动服务器页面（ASP）、Windows脚本宿主（WSH）和远程脚本。本书内容很丰富，实用性强，是一本真正的“从人门到精通”的全书"
+  },
+  {
+    "title": "JavaScript编程起步",
+    "author": "John Pollock ",
+    "press": " 人民邮电出版社 ",
+    "price": " ￥49.0",
+    "desc": "本书详细地讲解了JavaScript编程所用到的基本知识和常用技术。    全书分为三大部分。第 1、 2章是 JavaScript的简介和在 HTML中用JavaScript编程的基本知识。第3到15章详细地讲解了变量、函数、运算符、控制语句、事件句柄、各种对象、数组、字将处理的应用方法，配合具体的例程和程序注解来介绍。第16． 17章介绍了调试脚本、规范表达式、动态效果等高层技术的应用。    本书适合JavaScript语言的初学者，也可供有JavaScript编程经验的Web程序员参考。"
+  }
+]
