@@ -1,0 +1,527 @@
+[
+  {
+    "title": "Go语言学习笔记",
+    "author": "雨痕 ",
+    "press": " 电子工业出版社 ",
+    "price": " ￥89",
+    "desc": "雨痕 / 电子工业出版社 / ￥89"
+  },
+  {
+    "title": "Go语言编程",
+    "author": "许式伟 ",
+    "press": " 人民邮电出版社 ",
+    "price": " ￥49.00元",
+    "desc": "许式伟 / 人民邮电出版社 / ￥49.00元"
+  },
+  {
+    "title": "软件故事",
+    "author": "[美] 史蒂夫·洛尔 ",
+    "press": " 人民邮电出版社 ",
+    "price": " ￥49.00 元",
+    "desc": "[美] 史蒂夫·洛尔 / 人民邮电出版社 / ￥49.00 元"
+  },
+  {
+    "title": "Go 语言程序设计",
+    "author": "Mark Summerfield ",
+    "press": " 人民邮电出版社 ",
+    "price": " ￥CNY 69.00",
+    "desc": "Mark Summerfield / 人民邮电出版社 / ￥CNY 69.00"
+  },
+  {
+    "title": "Go并发编程实战（第2版）",
+    "author": "郝　林 ",
+    "press": " 人民邮电出版社 ",
+    "price": " ￥79.00元",
+    "desc": "郝　林 / 人民邮电出版社 / ￥79.00元"
+  },
+  {
+    "title": "Google Android开发入门指南",
+    "author": "王世江 ",
+    "press": " 人民邮电出版社 ",
+    "price": " ￥45.00元",
+    "desc": "王世江 / 人民邮电出版社 / ￥45.00元"
+  },
+  {
+    "title": "Google API大全",
+    "author": "高昂、段念、何峰、张凯峰、姚尚朗、苏哲、王翔、田淼、王俊煜、林胜、李明、刘宏伟 ",
+    "press": " 电子工业出版社 ",
+    "price": " ￥69.80元",
+    "desc": "高昂、段念、何峰、张凯峰、姚尚朗、苏哲、王翔、田淼、王俊煜、林胜、李明、刘宏伟 / 电子工业出版社 / ￥69.80元"
+  },
+  {
+    "title": "Go并发编程实战",
+    "author": "郝林 ",
+    "press": " 人民邮电出版社 ",
+    "price": " ￥89元",
+    "desc": "郝林 / 人民邮电出版社 / ￥89元"
+  },
+  {
+    "title": "Google Android开发入门与实战",
+    "author": "姚尚朗、靳岩 ",
+    "press": " 人民邮电出版社 ",
+    "price": " ￥55.00元",
+    "desc": "姚尚朗、靳岩 / 人民邮电出版社 / ￥55.00元"
+  },
+  {
+    "title": "Go Web编程",
+    "author": "谢孟军 ",
+    "press": " 电子工业出版社 ",
+    "price": " ￥65.00元",
+    "desc": "谢孟军 / 电子工业出版社 / ￥65.00元"
+  },
+  {
+    "title": "Go语言实战",
+    "author": "威廉·肯尼迪 (William Kennedy)、布赖恩·克特森 (Brian Ketelsen)、埃里克·圣马丁 (Erik St.Martin) ",
+    "press": " 人民邮电出版社 ",
+    "price": " ￥CNY 59.00",
+    "desc": "威廉·肯尼迪 (William Kennedy)、布赖恩·克特森 (Brian Ketelsen)、埃里克·圣马丁 (Erik St.Martin) / 人民邮电出版社 / ￥CNY 59.00"
+  },
+  {
+    "title": "飘",
+    "author": "[美]玛格丽特·米切尔 ",
+    "press": " 译林出版社 ",
+    "price": " ￥40.00元",
+    "desc": "[美]玛格丽特·米切尔 / 译林出版社 / ￥40.00元"
+  },
+  {
+    "title": "Goth.斷掌事件",
+    "author": "[日]乙一 ",
+    "press": " 青春文化 ",
+    "price": " ￥港币68元",
+    "desc": "[日]乙一 / 青春文化 / ￥港币68元"
+  },
+  {
+    "title": "Google将带来什么?",
+    "author": "[美]杰夫·贾维斯 ",
+    "press": " 中华工商联合出版社 ",
+    "price": " ￥39.00元",
+    "desc": "[美]杰夫·贾维斯 / 中华工商联合出版社 / ￥39.00元"
+  },
+  {
+    "title": "Google成功的七堂课",
+    "author": "罗耀宗 ",
+    "press": " 电子工业出版社 ",
+    "price": " ￥28.00元",
+    "desc": "罗耀宗 / 电子工业出版社 / ￥28.00元"
+  },
+  {
+    "title": "Google是如何控制世界的",
+    "author": "（美）丹尼尔·伊克比亚 ",
+    "press": " 东方出版社 ",
+    "price": " ￥36.00元",
+    "desc": "（美）丹尼尔·伊克比亚 / 东方出版社 / ￥36.00元"
+  },
+  {
+    "title": "Googled",
+    "author": "Ken Auletta ",
+    "press": " Penguin Press HC, The ",
+    "price": " ￥USD 27.95",
+    "desc": "Ken Auletta / Penguin Press HC, The / ￥USD 27.95"
+  },
+  {
+    "title": "Google品牌战略",
+    "author": "尼尔·泰勒 ",
+    "press": " 中信出版 ",
+    "price": " ￥30.00元",
+    "desc": "尼尔·泰勒 / 中信出版 / ￥30.00元"
+  },
+  {
+    "title": "Google改变生活",
+    "author": "韩梅、李凯、李广鹏 ",
+    "press": " 机械工业出版社 ",
+    "price": " ￥39.00元",
+    "desc": "韩梅、李凯、李广鹏 / 机械工业出版社 / ￥39.00元"
+  },
+  {
+    "title": "Google 广告优化与工具",
+    "author": "宫鑫 ",
+    "press": " 电子工业出版社 ",
+    "price": " ￥60.00元",
+    "desc": "宫鑫 / 电子工业出版社 / ￥60.00元"
+  },
+  {
+    "title": "Google 广告高阶优化（第3版）",
+    "author": "【美】Brad Geddes(布兰德.盖兹) ",
+    "press": " 电子工业出版社 ",
+    "price": " ￥99.00元",
+    "desc": "【美】Brad Geddes(布兰德.盖兹) / 电子工业出版社 / ￥99.00元"
+  },
+  {
+    "title": "GOOGLE HACKS",
+    "author": "Rael Dornfest、Tara Calishain ",
+    "press": " 电子工业 ",
+    "price": " ￥49.00元",
+    "desc": "Rael Dornfest、Tara Calishain / 电子工业 / ￥49.00元"
+  },
+  {
+    "title": "Google總部大揭密",
+    "author": "史蒂芬．李維 ",
+    "press": "暂无数据",
+    "price": "暂无价格数据",
+    "desc": "史蒂芬．李維 / 財信"
+  },
+  {
+    "title": "数据分析技术白皮书",
+    "author": "￥0",
+    "press": "暂无数据",
+    "price": "暂无价格数据",
+    "desc": "￥0"
+  },
+  {
+    "title": "Google",
+    "author": "托马斯·舒尔茨(Thomas·Schulz) ",
+    "press": " 当代中国出版社 ",
+    "price": " ￥CNY 49.80",
+    "desc": "托马斯·舒尔茨(Thomas·Schulz) / 当代中国出版社 / ￥CNY 49.80"
+  },
+  {
+    "title": "哥德尔、艾舍尔、巴赫",
+    "author": "[美]侯世达 ",
+    "press": " 商务印书馆 ",
+    "price": " ￥88.00元",
+    "desc": "[美]侯世达 / 商务印书馆 / ￥88.00元"
+  },
+  {
+    "title": "上帝与新物理学",
+    "author": "[英]保罗·戴维斯 ",
+    "press": " 湖南科学技术出版社 ",
+    "price": " ￥22.0",
+    "desc": "[英]保罗·戴维斯 / 湖南科学技术出版社 / ￥22.0"
+  },
+  {
+    "title": "哥德尔证明",
+    "author": "欧内斯特·内格尔（Ernest Nagel）、詹姆士 R. 纽曼 （James R. Newman） ",
+    "press": " 中国人民大学出版社 ",
+    "price": " ￥18.00元",
+    "desc": "欧内斯特·内格尔（Ernest Nagel）、詹姆士 R. 纽曼 （James R. Newman） / 中国人民大学出版社 / ￥18.00元"
+  },
+  {
+    "title": "Google API开发详解",
+    "author": "江宽，龚小鹏等编 ",
+    "press": " 电子工业 ",
+    "price": " ￥59.80元",
+    "desc": "江宽，龚小鹏等编 / 电子工业 / ￥59.80元"
+  },
+  {
+    "title": "Go Web Programming",
+    "author": "Sau Sheong Chang ",
+    "press": " Manning ",
+    "price": " ￥USD 44.99",
+    "desc": "Sau Sheong Chang / Manning / ￥USD 44.99"
+  },
+  {
+    "title": "GOOGLE HACKS探索和利用全球信息资源的技巧和工具",
+    "author": "(美)Rael Dornfest、Paul Bausch、Tara Calishain ",
+    "press": " 电子工业出版社 ",
+    "price": " ￥59.80元",
+    "desc": "(美)Rael Dornfest、Paul Bausch、Tara Calishain / 电子工业出版社 / ￥59.80元"
+  },
+  {
+    "title": "Google Apps应用完全指南",
+    "author": "Scott Granneman ",
+    "press": "暂无数据",
+    "price": "暂无价格数据",
+    "desc": "Scott Granneman / ￥59.00元"
+  },
+  {
+    "title": "Google真相",
+    "author": "熊江 ",
+    "press": " 中华工商联合出版社 ",
+    "price": " ￥32.00元",
+    "desc": "熊江 / 中华工商联合出版社 / ￥32.00元"
+  },
+  {
+    "title": "Google软件测试之道",
+    "author": "James A. Whittaker、Jason Arbon、Jeff Carollo ",
+    "press": " 人民邮电出版社 ",
+    "price": " ￥59.00元",
+    "desc": "James A. Whittaker、Jason Arbon、Jeff Carollo / 人民邮电出版社 / ￥59.00元"
+  },
+  {
+    "title": "Google Power Tools Bible",
+    "author": "Ted Coombs、Roderico DeLeon ",
+    "press": " Wiley ",
+    "price": " ￥271.00元",
+    "desc": "Ted Coombs、Roderico DeLeon / Wiley / ￥271.00元"
+  },
+  {
+    "title": "学着说再见",
+    "author": "[美]萝瑞•弗兰克尔（Laurie Frankel） ",
+    "press": " 中信出版社 ",
+    "price": " ￥35.00元",
+    "desc": "[美]萝瑞•弗兰克尔（Laurie Frankel） / 中信出版社 / ￥35.00元"
+  },
+  {
+    "title": "治理中国",
+    "author": "[美]李侃如 ",
+    "press": " 中国社会科学出版社 ",
+    "price": " ￥45.00元",
+    "desc": "[美]李侃如 / 中国社会科学出版社 / ￥45.00元"
+  },
+  {
+    "title": "独闯天下",
+    "author": "[挪威]罗尔德·达尔 ",
+    "press": " 明天出版社 ",
+    "price": " ￥18.00元",
+    "desc": "[挪威]罗尔德·达尔 / 明天出版社 / ￥18.00元"
+  },
+  {
+    "title": "大猩猩",
+    "author": "(英)安东尼·布朗 文",
+    "press": "图 ",
+    "price": " 河北教育出版社 ",
+    "desc": "(英)安东尼·布朗 文/图 / 河北教育出版社 / ￥29.80元"
+  },
+  {
+    "title": "Goodnight Moon",
+    "author": "Margaret Wise Brown、(Pictures by) Clement Hurd ",
+    "press": " Harper Collins Publishers ",
+    "price": " ￥$6.95",
+    "desc": "Margaret Wise Brown、(Pictures by) Clement Hurd / Harper Collins Publishers / ￥$6.95"
+  },
+  {
+    "title": "晚安，大猩猩",
+    "author": "[美] 佩吉·拉特曼(Peggy Rathmann) 文",
+    "press": "图 ",
+    "price": " 南海出版公司 ",
+    "desc": "[美] 佩吉·拉特曼(Peggy Rathmann) 文/图 / 南海出版公司 / ￥25.00元"
+  },
+  {
+    "title": "月亮，晚安",
+    "author": "文",
+    "press": "马格丽特·怀兹·布朗、图",
+    "price": "克雷门·赫德 ",
+    "desc": "文/马格丽特·怀兹·布朗、图/克雷门·赫德 / 上誼文化公司"
+  },
+  {
+    "title": "GON",
+    "author": "田中政志",
+    "press": "暂无数据",
+    "price": "暂无价格数据",
+    "desc": "田中政志"
+  },
+  {
+    "title": "GO!GO!茂利飛車黨 03",
+    "author": "[日]古谷實 ",
+    "press": " 玉皇朝出版集團 ",
+    "price": " ￥HKD 35",
+    "desc": "[日]古谷實 / 玉皇朝出版集團 / ￥HKD 35"
+  },
+  {
+    "title": "Go go Monster",
+    "author": "[日]松本大洋 ",
+    "press": "暂无数据",
+    "price": "暂无价格数据",
+    "desc": "[日]松本大洋 / ￥29,95euros"
+  },
+  {
+    "title": "再见宝贝，再见",
+    "author": "[美]丹尼斯·勒翰 ",
+    "press": " 文化艺术出版社 ",
+    "price": " ￥28.00元",
+    "desc": "[美]丹尼斯·勒翰 / 文化艺术出版社 / ￥28.00元"
+  },
+  {
+    "title": "消失的爱人",
+    "author": "[美]吉莉安·弗琳 ",
+    "press": " 中信出版社 ",
+    "price": " ￥42.00元",
+    "desc": "[美]吉莉安·弗琳 / 中信出版社 / ￥42.00元"
+  },
+  {
+    "title": "阿波罗的伦敦爱情故事",
+    "author": "［英］玛丽•菲利普 ",
+    "press": " 重庆出版社 ",
+    "price": " ￥28.00元",
+    "desc": "［英］玛丽•菲利普 / 重庆出版社 / ￥28.00元"
+  },
+  {
+    "title": "Last and First Men",
+    "author": "Olaf Stapledon ",
+    "press": " Gollancz ",
+    "price": " ￥GBP 8.99",
+    "desc": "Olaf Stapledon / Gollancz / ￥GBP 8.99"
+  },
+  {
+    "title": "God Emperor of Dune (Dune Chronicles, Book 4)",
+    "author": "Frank Herbert ",
+    "press": " ACE Charter ",
+    "price": " ￥USD 7.99",
+    "desc": "Frank Herbert / ACE Charter / ￥USD 7.99"
+  },
+  {
+    "title": "GOOD LUCK 戦闘妖精・雪風",
+    "author": "神林長平 ",
+    "press": " 早川書房 ",
+    "price": " ￥97.00元",
+    "desc": "神林長平 / 早川書房 / ￥97.00元"
+  },
+  {
+    "title": "上帝的残屑",
+    "author": "[美]斯科特·亚当斯 ",
+    "press": " 新疆人民出版社 ",
+    "price": " ￥18.00",
+    "desc": "[美]斯科特·亚当斯 / 新疆人民出版社 / ￥18.00"
+  },
+  {
+    "title": "God of the Atoms",
+    "author": "Francies P. Xavier ",
+    "press": " Motilal UK Books of India ",
+    "price": " ￥GBP 6.50",
+    "desc": "Francies P. Xavier / Motilal UK Books of India / ￥GBP 6.50"
+  },
+  {
+    "title": "GOSICK 2",
+    "author": "櫻庭一樹 ",
+    "press": " 台灣角川股份有限公司 ",
+    "price": " ￥NT$240",
+    "desc": "櫻庭一樹 / 台灣角川股份有限公司 / ￥NT$240"
+  },
+  {
+    "title": "GOSICK 5",
+    "author": "櫻庭一樹 ",
+    "press": " 台灣國際角川書店股份有限公司 ",
+    "price": " ￥NT$180",
+    "desc": "櫻庭一樹 / 台灣國際角川書店股份有限公司 / ￥NT$180"
+  },
+  {
+    "title": "GOSICKs. 1 －伴隨春天而來的死神－",
+    "author": "櫻庭一樹 ",
+    "press": " 臺灣國際角川 ",
+    "price": " ￥NTD200元",
+    "desc": "櫻庭一樹 / 臺灣國際角川 / ￥NTD200元"
+  },
+  {
+    "title": "GOSICK 4",
+    "author": "櫻庭一樹 ",
+    "press": " 台灣國際角川書店股份有限公司 ",
+    "price": " ￥NT $200",
+    "desc": "櫻庭一樹 / 台灣國際角川書店股份有限公司 / ￥NT $200"
+  },
+  {
+    "title": "GOSICKs 3 －秋花追憶－",
+    "author": "櫻庭一樹、桜庭一樹 ",
+    "press": " 臺灣國際角川 ",
+    "price": " ￥NTD180元",
+    "desc": "櫻庭一樹、桜庭一樹 / 臺灣國際角川 / ￥NTD180元"
+  },
+  {
+    "title": "GOSICK 3",
+    "author": "櫻庭一樹 ",
+    "press": " 台灣國際角川書店股份有限公司 ",
+    "price": " ￥NT $200",
+    "desc": "櫻庭一樹 / 台灣國際角川書店股份有限公司 / ￥NT $200"
+  },
+  {
+    "title": "GOSICKs 2 －遠離夏季的列車－",
+    "author": "櫻庭一樹 ",
+    "press": " 臺灣國際角川 ",
+    "price": " ￥NTD180元",
+    "desc": "櫻庭一樹 / 臺灣國際角川 / ￥NTD180元"
+  },
+  {
+    "title": "GOSICK 6",
+    "author": "櫻庭一樹 ",
+    "press": " 台灣國際角川書店股份有限公司 ",
+    "price": " ￥NT$180",
+    "desc": "櫻庭一樹 / 台灣國際角川書店股份有限公司 / ￥NT$180"
+  },
+  {
+    "title": "GOSICK 1",
+    "author": "櫻庭一樹 ",
+    "press": " 台灣國際角川書店股份有限公司 ",
+    "price": " ￥NT $ 200",
+    "desc": "櫻庭一樹 / 台灣國際角川書店股份有限公司 / ￥NT $ 200"
+  },
+  {
+    "title": "Tik-Tok",
+    "author": "John Sladek ",
+    "press": " Gollancz ",
+    "price": " ￥USD 14.95",
+    "desc": "John Sladek / Gollancz / ￥USD 14.95"
+  },
+  {
+    "title": "火星崛起 2",
+    "author": "[美] 皮尔斯·布朗 ",
+    "press": " 江苏凤凰文艺出版社 ",
+    "price": " ￥58",
+    "desc": "[美] 皮尔斯·布朗 / 江苏凤凰文艺出版社 / ￥58"
+  },
+  {
+    "title": "Gothic",
+    "author": "Rolf Toman ",
+    "press": " Konemann ",
+    "price": " ￥USD 39.95",
+    "desc": "Rolf Toman / Konemann / ￥USD 39.95"
+  },
+  {
+    "title": "公共事物的治理之道",
+    "author": "(美)埃莉诺﹒奥斯特罗姆著 ",
+    "press": " 上海三联 ",
+    "price": " ￥23.00元",
+    "desc": "(美)埃莉诺﹒奥斯特罗姆著 / 上海三联 / ￥23.00元"
+  },
+  {
+    "title": "单身社会",
+    "author": "[美]克里南伯格 ",
+    "press": " 上海文艺出版社 ",
+    "price": " ￥32.00元",
+    "desc": "[美]克里南伯格 / 上海文艺出版社 / ￥32.00元"
+  },
+  {
+    "title": "环球银幕 黄金时代的100位女星",
+    "author": "环球银幕杂志社 ",
+    "press": " 环球银幕编辑部 ",
+    "price": " ￥45.00元",
+    "desc": "环球银幕杂志社 / 环球银幕编辑部 / ￥45.00元"
+  },
+  {
+    "title": "太平天国",
+    "author": "[美]史景迁 ",
+    "press": " 广西师范大学出版社 ",
+    "price": " ￥56.00元",
+    "desc": "[美]史景迁 / 广西师范大学出版社 / ￥56.00元"
+  },
+  {
+    "title": "God Is Not Great",
+    "author": "Christopher Hitchens ",
+    "press": " Twelve ",
+    "price": " ￥USD 24.99",
+    "desc": "Christopher Hitchens / Twelve / ￥USD 24.99"
+  },
+  {
+    "title": "好设计",
+    "author": "[美] 特里·马克斯、[美] 马修·波特 ",
+    "press": " 山东画报出版社 ",
+    "price": " ￥38.00元",
+    "desc": "[美] 特里·马克斯、[美] 马修·波特 / 山东画报出版社 / ￥38.00元"
+  },
+  {
+    "title": "从优秀到卓越",
+    "author": "[美]吉姆·柯林斯 ",
+    "press": " 中信出版社 ",
+    "price": " ￥39.00元",
+    "desc": "[美]吉姆·柯林斯 / 中信出版社 / ￥39.00元"
+  },
+  {
+    "title": "从A到A+",
+    "author": "Jim Collins ",
+    "press": " 遠流出版事業股份有限公司 ",
+    "price": " ￥NT$380",
+    "desc": "Jim Collins / 遠流出版事業股份有限公司 / ￥NT$380"
+  },
+  {
+    "title": "Good to Great",
+    "author": "Jim Collins ",
+    "press": " HarperBusiness ",
+    "price": " ￥29.99美元",
+    "desc": "Jim Collins / HarperBusiness / ￥29.99美元"
+  },
+  {
+    "title": "Good Calories, Bad Calories",
+    "author": "Taubes, Gary ",
+    "press": "暂无数据",
+    "price": "暂无价格数据",
+    "desc": "Taubes, Gary / ￥118.58元"
+  }
+]
