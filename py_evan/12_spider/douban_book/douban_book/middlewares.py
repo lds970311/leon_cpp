@@ -4,14 +4,13 @@
 # https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 import random
 
-from scrapy import signals
-from scrapy.http import Request
+from scrapy import signals, Request
 
 
 # useful for handling different item types with a single interface
 
 
-class Scrapy01SpiderMiddleware:
+class DoubanBookSpiderMiddleware:
     # Not all methods need to be defined. If a method is not defined,
     # scrapy acts as if the spider middleware does not modify the
     # passed objects.
@@ -58,7 +57,7 @@ class Scrapy01SpiderMiddleware:
         spider.logger.info('Spider opened: %s' % spider.name)
 
 
-class Scrapy01DownloaderMiddleware:
+class DoubanBookDownloaderMiddleware:
     _proxy = ('a741.kdltps.com', '15818')
 
     @classmethod
@@ -72,7 +71,8 @@ class Scrapy01DownloaderMiddleware:
         uas = [
             "User-Agent:Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_8; en-us) AppleWebKit/534.50 (KHTML, like Gecko) Version/5.1 Safari/534.50",
             "User-Agent:Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0",
-            "User-Agent:Mozilla/5.0 (Windows NT 6.1; rv:2.0.1) Gecko/20100101 Firefox/4.0.1"
+            "User-Agent:Mozilla/5.0 (Windows NT 6.1; rv:2.0.1) Gecko/20100101 Firefox/4.0.1",
+            "User-Agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
         ]
 
         # 设置代理UA
@@ -84,7 +84,7 @@ class Scrapy01DownloaderMiddleware:
         password = "152257s0"
         request.meta['proxy'] = "http://%(user)s:%(pwd)s@%(proxy)s/" % {"user": username, "pwd": password,
                                                                         "proxy": ':'.join(
-                                                                            Scrapy01DownloaderMiddleware._proxy)}
+                                                                            DoubanBookDownloaderMiddleware._proxy)}
 
         # 白名单认证
         # request.meta['proxy'] = "http://%(proxy)s/" % {"proxy": proxy}
@@ -105,7 +105,7 @@ class Scrapy01DownloaderMiddleware:
         """捕获407异常"""
         if "'status': 407" in exception.__str__():  # 不同版本的exception的写法可能不一样，可以debug出当前版本的exception再修改条件
             from scrapy.resolver import dnscache
-            dnscache.__delitem__(Scrapy01DownloaderMiddleware._proxy[0])  # 删除proxy host的dns缓存
+            dnscache.__delitem__(DoubanBookDownloaderMiddleware._proxy[0])  # 删除proxy host的dns缓存
         return exception
 
     def spider_opened(self, spider):

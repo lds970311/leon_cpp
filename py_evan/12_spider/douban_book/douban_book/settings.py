@@ -1,4 +1,4 @@
-# Scrapy settings for scrapy_01 project
+# Scrapy settings for douban_book project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,13 +7,14 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'scrapy_01'
+BOT_NAME = 'douban_book'
 
-SPIDER_MODULES = ['scrapy_01.spiders']
-NEWSPIDER_MODULE = 'scrapy_01.spiders'
+SPIDER_MODULES = ['douban_book.spiders']
+NEWSPIDER_MODULE = 'douban_book.spiders'
 
+LOG_LEVEL = 'ERROR'
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-USER_AGENT = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+# USER_AGENT = 'douban_book (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
@@ -44,13 +45,13 @@ ROBOTSTXT_OBEY = False
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 # SPIDER_MIDDLEWARES = {
-#    'scrapy_01.middlewares.Scrapy01SpiderMiddleware': 543,
+#    'douban_book.middlewares.DoubanBookSpiderMiddleware': 543,
 # }
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
-    'scrapy_01.middlewares.Scrapy01DownloaderMiddleware': 543,
+    'douban_book.middlewares.DoubanBookDownloaderMiddleware': 543,
 }
 
 # Enable or disable extensions
@@ -62,10 +63,8 @@ DOWNLOADER_MIDDLEWARES = {
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    'scrapy_01.pipelines.Scrapy01Pipeline': 300,
+    'douban_book.pipelines.DoubanBookPipeline': 300,
 }
-
-LOG_LEVEL = 'error'
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
@@ -87,3 +86,6 @@ LOG_LEVEL = 'error'
 # HTTPCACHE_DIR = 'httpcache'
 # HTTPCACHE_IGNORE_HTTP_CODES = []
 # HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+REQUEST_FINGERPRINTER_IMPLEMENTATION = "2.7"
+TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
+FEED_EXPORT_ENCODING = "utf-8"
