@@ -27,7 +27,7 @@ def pipeline_handle():
 
 
 if __name__ == '__main__':
-
+    red.set('name', 'leon')
     name = red.get('name').decode('utf-8')
     print(name)
     red.hset('user1', 'sex', 'male')
