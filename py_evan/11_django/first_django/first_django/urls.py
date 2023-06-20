@@ -8,7 +8,8 @@ from first_django.views import page_500, page_404
 urlpatterns = [
     #    path('admin/', admin.site.urls),
     path("hello/", include('helloworld.urls')),
-    path('tmp/', include('tem_handler.urls'))
+    path('tmp/', include('tem_handler.urls')),
+    path('account/', include('account.urls'))
 ]
 
 handler500 = page_500
