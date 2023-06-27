@@ -9,7 +9,9 @@ urlpatterns = [
     #    path('admin/', admin.site.urls),
     path("hello/", include('helloworld.urls')),
     path('tmp/', include('tem_handler.urls')),
-    path('account/', include('account.urls'))
+    path('account/', include('account.urls')),
+    path('accounts/', include('accounts.urls')),
+    path('grade/', include('grade.urls')),
 ]
 
 handler500 = page_500
@@ -19,5 +21,6 @@ if settings.DEBUG:
     urlpatterns += [
         re_path(r'^media/(?P<path>.*)$', serve, {
             'document_root': settings.MEDIA_ROOT
-        })
+        }),
+        path('__debug__/', include('debug_toolbar.urls'))
     ]

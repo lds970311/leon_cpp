@@ -5,54 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02d49d61-7d65-4903-978c-b3462c3f9145" name="Changes" comment="1. django orm实现模型创建，crud">
-      <change afterPath="$PROJECT_DIR$/../../10_flask/fisrt_flask/.idea/fisrt_flask.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/56fa9770-8767-4706-827a-72b7a426aaff.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/56fa9770-8767-4706-827a-72b7a426aaff/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/56fa9770-8767-4706-827a-72b7a426aaff/storage_v2/_src_/schema/information_schema.FNRwLQ.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/56fa9770-8767-4706-827a-72b7a426aaff/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/56fa9770-8767-4706-827a-72b7a426aaff/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/56fa9770-8767-4706-827a-72b7a426aaff/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/56fa9770-8767-4706-827a-72b7a426aaff/storage_v2/_src_/schema/sys.zb4BAA.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/first_django.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/migrations/0002_auto_20230618_1504.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/migrations/0003_profile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/migrations/0004_answer_classify_question.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/migrations/0005_user_collect_ques.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trip/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trip/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trip/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trip/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trip/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trip/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trip/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trip/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/templates/user_info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade/db/grade.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade/templates/page_grade.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/56fa9770-8767-4706-827a-72b7a426aaff.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/56fa9770-8767-4706-827a-72b7a426aaff.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/account/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first_django/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_django/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first_django/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_django/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../12_spider/ encrypt/xinbang.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../12_spider/ encrypt/xinbang.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +86,18 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Django tests.Test: accounts.tests.Test.test_get_user">
+  <component name="RunManager" selected="Database Script.grade.sql (1)">
+    <configuration name="grade.sql (1)" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/grade/db/grade.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="56fa9770-8767-4706-827a-72b7a426aaff" namespace="schema/&quot;django_user&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="grade.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/grade/db/grade.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
     <configuration name="Test: accounts.tests.Test.test_add" type="DjangoTestsConfigurationType" temporary="true">
       <module name="first_django" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -183,6 +165,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Database Script.grade.sql (1)" />
+        <item itemvalue="Database Script.grade.sql" />
         <item itemvalue="Django tests.Test: accounts.tests.Test.test_get_user" />
         <item itemvalue="Django tests.Test: accounts.tests.Test.test_add" />
       </list>
@@ -200,6 +184,7 @@
       <workItem from="1685392261875" duration="6427000" />
       <workItem from="1687094047565" duration="17163000" />
       <workItem from="1687262629694" duration="78000" />
+      <workItem from="1687429799765" duration="6483000" />
     </task>
     <task id="LOCAL-00001" summary="1. 创建第一个django项目&#10;2. 配置django的视图&#10;3. 使用DTL模板，进行页面渲染">
       <created>1685397859095</created>
