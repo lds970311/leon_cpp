@@ -5157,7 +5157,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="1167" parent="373" name="id">
-      <AutoIncrement>6</AutoIncrement>
+      <AutoIncrement>5</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -5371,7 +5371,7 @@ permission_id</ColNames>
       <UnderlyingIndexName>auth_group_permissions_group_id_permission_id_0cd325b0_uniq</UnderlyingIndexName>
     </key>
     <column id="1212" parent="377" name="id">
-      <AutoIncrement>77</AutoIncrement>
+      <AutoIncrement>76</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -5587,7 +5587,7 @@ permission_id</ColNames>
       <UnderlyingIndexName>auth_user_user_permissions_user_id_permission_id_14a6b632_uniq</UnderlyingIndexName>
     </key>
     <column id="1256" parent="381" name="id">
-      <AutoIncrement>20</AutoIncrement>
+      <AutoIncrement>19</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -5682,7 +5682,7 @@ model</ColNames>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="1275" parent="384" name="id">
-      <AutoIncrement>1</AutoIncrement>
+      <AutoIncrement>9</AutoIncrement>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
