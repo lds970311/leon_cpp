@@ -13,7 +13,7 @@ class CommonModel(models.Model):
 
 
 class User(CommonModel):
-    name = models.CharField('姓名', max_length=64)
+    name = models.CharField('姓名', max_length=64, default='evan')
     sex = models.CharField('性别', max_length=1, choices=(
         ('1', '男'),
         ('2', '女')
@@ -22,7 +22,7 @@ class User(CommonModel):
     username = models.CharField('用户名', max_length=255, unique=True)
     password = models.CharField('密码', max_length=128, unique=True)
     remark = models.CharField('备注', max_length=256, null=True, blank=True)
-
+    avatar = models.ImageField('用户头像', upload_to='avatar', null=True, blank=True)
     collect_ques = models.ManyToManyField('Question')
 
     class Meta:

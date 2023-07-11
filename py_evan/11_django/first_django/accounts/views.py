@@ -1,11 +1,13 @@
 # Create your views here.
+import os
+
+from accounts.forms import LoginForm, UserChangeForm
+# Create your views here.
+from accounts.models import User, UserProfile
 from django.db import transaction
 from django.http import HttpResponse, HttpRequest
 from django.shortcuts import render
-
-from accounts.forms import LoginForm
-# Create your views here.
-from accounts.models import User, UserProfile
+from first_django.settings import MEDIA_ROOT
 
 
 def user_info(request):
@@ -42,7 +44,41 @@ def user_register_transaction(request: HttpRequest):
 
 
 def login(request: HttpRequest):
+    if request.method == 'POST':
+        form = LoginForm(data=request.POST)
+        if form.is_valid():
+            print('表单验证通过')
+        else:
+            print(form.errors)
+
     form = LoginForm()
     return render(request, 'user_login.html', {
         'form': form
     })
+
+
+def user_change(request: HttpRequest):
+    if request.method == 'POST':
+        form = UserChangeForm(data=request.POST)
+        if form.is_valid():
+            print('表单验证通过')
+            form.save()
+        else:
+            print(form.errors)
+
+    form = UserChangeForm()
+    return render(request, 'user_change.html', {
+        'form': form
+    })
+
+
+def upload(request: HttpRequest):
+    if request.method == 'POST':
+        file = request.FILES['avatar']
+        if file:
+            filename = os.path.join(MEDIA_ROOT, 'test.jpg')
+            with open(filename, 'wb+') as f:
+                for chunk in file.chunks():
+                    f.write(chunk)
+            print('上传成功')
+    return render(request, 'upload_file.html')
