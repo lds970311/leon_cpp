@@ -4,26 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02d49d61-7d65-4903-978c-b3462c3f9145" name="Changes" comment="1. django orm实现模型创建，crud">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/templates/user_info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade/db/grade.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade/templates/page_grade.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/56fa9770-8767-4706-827a-72b7a426aaff.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/56fa9770-8767-4706-827a-72b7a426aaff.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="02d49d61-7d65-4903-978c-b3462c3f9145" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/accounts/templates/upload_file.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/templates/user_change.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/test.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/user_login.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/user_login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_django/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_django/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_django/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_django/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,6 +174,7 @@
       <workItem from="1687094047565" duration="17163000" />
       <workItem from="1687262629694" duration="78000" />
       <workItem from="1687429799765" duration="6483000" />
+      <workItem from="1688989622509" duration="9854000" />
     </task>
     <task id="LOCAL-00001" summary="1. 创建第一个django项目&#10;2. 配置django的视图&#10;3. 使用DTL模板，进行页面渲染">
       <created>1685397859095</created>
@@ -193,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685397859095</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1. django 实现用户登录表单">
+      <created>1688989838330</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688989838330</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,7 +201,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="1. 创建第一个django项目&#10;2. 配置django的视图&#10;3. 使用DTL模板，进行页面渲染" />
     <MESSAGE value="1. django orm实现模型创建，crud" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. django orm实现模型创建，crud" />
+    <MESSAGE value="1. django 实现用户登录表单" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. django 实现用户登录表单" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

@@ -18,6 +18,11 @@
             color: red;
             margin-bottom: 30px;
         }
+
+        .errorlist {
+            color: red;
+            list-style: none;
+        }
     </style>
 </head>
 <body>
@@ -25,7 +30,24 @@
     <h3>用户登录</h3>
     <form action="." method="post">
         {% csrf_token %}
-        {{ form.as_p }}
+        <div>
+            {{ form.phone.label }}
+            {{ form.phone }}
+            {{ form.phone.errors }}
+        </div>
+        <div>
+            {{ form.username.label }}
+            {{ form.username }}
+            {{ form.username.errors.as_text }}
+        </div>
+        <div>
+            {{ form.password.label }}
+            {{ form.password }}
+            {{ form.password.errors.as_text }}
+        </div>
+        <div>
+            {{ form.non_field_errors }}
+        </div>
         <br/>
         <input type="submit" value="登录">
 

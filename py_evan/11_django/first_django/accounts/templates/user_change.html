@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户详细信息</title>
+</head>
+<body>
+<h3>ORM表单</h3>
+<form action="." method="post">
+    {% csrf_token %}
+    <div>
+        {{ form.phone.label }}
+        {{ form.phone }}
+        {{ form.phone.errors }}
+    </div>
+    <div>
+        {{ form.username.label }}
+        {{ form.username }}
+        {{ form.username.errors.as_text }}
+    </div>
+    <div>
+        {{ form.password.label }}
+        {{ form.password }}
+        {{ form.password.errors.as_text }}
+    </div>
+    <div>
+        {{ form.avatar.label }}
+        {{ form.avatar }}
+        {{ form.avatar.errors }}
+    </div>
+    <div>
+        {{ form.non_field_errors }}
+    </div>
+    <br/>
+    <input type="submit" value="保存">
+
+</body>
+</html>
