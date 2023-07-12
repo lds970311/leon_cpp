@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <h3>表单操作</h3>
+    <input type="text" name="username" v-model="username">
+    <input type="button" value="提交" @click="submit">
+    <span>用户名长度：{{ usernameLen }}</span>
+    <div class="city">
+        <input type="button" value="加载" @click="load">
+        <ul>
+            <li v-for="item in dataList">{{ item }}</li>
+        </ul>
+    </div>
+</div>
+<script>
+    const vue = new Vue({
+        el: "#app",
+        data() {
+            return {
+                username: 'admin',
+                dataList: []
+            }
+        },
+        beforeUpdate() {
+            console.log('beforeUpdate')
+        },
+        updated() {
+            console.log('updated')
+        },
+        methods: {
+            submit() {
+                console.log('表单值：', this.username)
+            },
+            load() {
+                this.dataList = ['北京', '上海', '广州', '深圳']
+            }
+        },
+        computed: {
+            usernameLen() {
+                return this.username.length
+            }
+        }
+    })
+</script>
+</body>
+</html>
