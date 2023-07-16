@@ -60,12 +60,13 @@ export default {
 
   .right-style {
     span {
-      color: black;
+      color: #a89999;
     }
   }
 
   .van-cell {
     padding: 10px 0;
+    line-height: 24px;
   }
 
   .box-main {

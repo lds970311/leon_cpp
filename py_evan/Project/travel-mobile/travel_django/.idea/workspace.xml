@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bde3a8e6-4b48-4d27-b0f1-653c5b592d94" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../travel-vue/src/components/Common/ListSight.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/75b63205-a97f-4250-bde3-eff3d1825ce8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/75b63205-a97f-4250-bde3-eff3d1825ce8/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/75b63205-a97f-4250-bde3-eff3d1825ce8/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/75b63205-a97f-4250-bde3-eff3d1825ce8/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/75b63205-a97f-4250-bde3-eff3d1825ce8/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/travel_django.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sight/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sight/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sight/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sight/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sight/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sight/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sight/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sight/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sight/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/trip.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_django/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_django/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_django/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_django/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_django/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../11_django/first_django/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../11_django/first_django/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../travel-vue/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../travel-vue/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../travel-vue/src/assets/style/common.less" beforeDir="false" afterPath="$PROJECT_DIR$/../travel-vue/src/assets/style/common.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../travel-vue/src/components/Common/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../travel-vue/src/components/Common/Footer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../travel-vue/src/components/Home/Fine.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../travel-vue/src/components/Home/Fine.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../travel-vue/src/components/Home/Hot.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../travel-vue/src/components/Home/Hot.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../travel-vue/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../travel-vue/src/views/Home.vue" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="2SbyhbSS59wGB2DFJQvyt4SWOoj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/lds/Desktop/Programs/leon_cpp/py_evan/11_django/first_django",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="travel_django" type="Python.DjangoServer" factoryName="Django server">
+      <module name="travel_django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="travel_django.settings" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.8" />
+      <option name="SDK_NAME" value="Python 3.8" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="18000" />
+      <option name="host" value="0.0.0.0" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bde3a8e6-4b48-4d27-b0f1-653c5b592d94" name="Changes" comment="" />
+      <created>1689429694688</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689429694688</updated>
+      <workItem from="1689429695948" duration="8194000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
