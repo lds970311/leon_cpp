@@ -5,14 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02d49d61-7d65-4903-978c-b3462c3f9145" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/accounts/templates/upload_file.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/templates/user_change.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/test.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/templates/user_login.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/user_login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/travel-mobile/travel-vue/src/components/Common/ListSight.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/travel-mobile/travel_django/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/travel-mobile/travel_django/.idea/dataSources/75b63205-a97f-4250-bde3-eff3d1825ce8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/travel-mobile/travel_django/.idea/dataSources/75b63205-a97f-4250-bde3-eff3d1825ce8/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/travel-mobile/travel_django/.idea/dataSources/75b63205-a97f-4250-bde3-eff3d1825ce8/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/travel-mobile/travel_django/.idea/dataSources/75b63205-a97f-4250-bde3-eff3d1825ce8/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/travel-mobile/travel_django/.idea/dataSources/75b63205-a97f-4250-bde3-eff3d1825ce8/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/travel-mobile/travel_django/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/travel-mobile/travel_django/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/travel-mobile/travel_django/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/travel-mobile/travel_django/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/travel-mobile/travel_django/.idea/travel_django.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/travel-mobile/travel_django/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/travel-mobile/travel_django/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/travel-mobile/travel_django/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/travel-mobile/travel_django/system/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/travel-mobile/travel_django/system/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/travel-mobile/travel_django/system/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/travel-mobile/travel_django/system/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/travel-mobile/travel_django/system/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/travel-mobile/travel_django/system/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/travel-mobile/travel_django/system/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/travel-mobile/travel_django/system/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/travel-mobile/travel_django/system/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/travel-mobile/travel_django/travel_django/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/travel-mobile/travel_django/travel_django/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/travel-mobile/travel_django/travel_django/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/travel-mobile/travel_django/travel_django/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/travel-mobile/travel_django/travel_django/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project/travel-mobile/travel-vue/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project/travel-mobile/travel-vue/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project/travel-mobile/travel-vue/src/assets/style/common.less" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project/travel-mobile/travel-vue/src/assets/style/common.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project/travel-mobile/travel-vue/src/components/Common/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project/travel-mobile/travel-vue/src/components/Common/Footer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project/travel-mobile/travel-vue/src/components/Home/Fine.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project/travel-mobile/travel-vue/src/components/Home/Fine.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project/travel-mobile/travel-vue/src/components/Home/Hot.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project/travel-mobile/travel-vue/src/components/Home/Hot.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project/travel-mobile/travel-vue/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project/travel-mobile/travel-vue/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,6 +202,7 @@
       <workItem from="1687262629694" duration="78000" />
       <workItem from="1687429799765" duration="6483000" />
       <workItem from="1688989622509" duration="9854000" />
+      <workItem from="1689432905437" duration="30000" />
     </task>
     <task id="LOCAL-00001" summary="1. 创建第一个django项目&#10;2. 配置django的视图&#10;3. 使用DTL模板，进行页面渲染">
       <created>1685397859095</created>
